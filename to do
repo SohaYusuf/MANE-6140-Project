@@ -1,3 +1,4 @@
 Check if CAD models created in Solidworks can be imported in Altair 
 Narrow down the project idea : airfoil with plain flap at low reynold numbers (incompressible flow)
 Decide on a specific project title on airfoil
+Select between symmetric or assymmetric airfoil then select a specific airfoil
