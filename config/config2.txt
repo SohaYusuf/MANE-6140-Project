@@ -1,3 +1,7 @@
+
+""" see lines 54 , 38 and 33
+"""
+
 density 1.0kgm/s2
 viscosity 1e-05 m2/s
 Freestream velocity = 100 m/s 
@@ -40,7 +44,7 @@ airfoil on the +Z normal face
 
 3. "Volume”
 - Mesh size to ‘Maximum Size’
-- Maximum element size to c = 0.254
+- Maximum element size to c = 0.6096 m
 
 4. Add refinement zones
 - Rectangular Refinement Zone
