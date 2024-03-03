@@ -1,0 +1,53 @@
+density 1.0kgm/s2
+viscosity 1e-05 m2/s
+Freestream velocity = 100 m/s 
+Reynold number = ?
+
+boundary conditions:
+1. No Slip
+- upper and lower wall of airfoil 
+- Set “Near-wall treatment” to ‘Wall
+Resolved’ 
+- “Roughness height” to 0 
+- Set “Wall velocity type” to ‘Zero’
+
+2. “Far Field”
+- upper
+and lower
+surfaces of the
+circular rim
+- “X velocity” as 100 m/s
+
+3. “Slip”
+- +/- Z normal surfaces
+
+mesh details:
+1. “Edge”
+- two edge curves of
+the airfoil on the +Z normal
+face
+- Average element size c/512 = 0.6096/512 = 0.001190625
+
+2. “Edge Layer”
+- two edge curves of the
+airfoil on the +Z normal face
+- First layer thickness to c/1000 = 0.6096/1000 = 0.0006096
+- Total number of layers to 20 
+- Growth method to Constant 
+- Growth rate to 1.2
+- Termination policy to ‘Truncate’
+- Enable surface mesh modification
+
+3. "Volume”
+- Mesh size to ‘Maximum Size’
+- Maximum element size to c = 0.254
+
+4. Add refinement zones
+- Rectangular Refinement Zone
+- Edit length (x), height (y) and width (z) of
+the box to be 2.2c = 0.5588, 0.3c =
+0.0762, and 0.3c = 0.0762, respectively
+- Set average element size to c/512 = 0.001190625
+
+
+
