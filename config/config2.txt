@@ -52,8 +52,3 @@ airfoil on the +Z normal face
 the box to be 2.2c = 1.34112, 0.3c =
 0.18288, and 0.3c = 0.18288, respectively
 - Set average element size to c/512 = 0.001190625
-
-
-- Edit length (x), height (y) and width (z) of
-the box to be 2.2c = 0.5588, 0.3c =
-0.0762, and 0.3c = 0.0762, respectively
