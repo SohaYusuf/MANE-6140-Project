@@ -1,4 +1,4 @@
-Run on 03/06/2024
+Run on 03/07/2024 10:00AM
 
 Air
 Freestream velocity = 40 m/s 
@@ -45,6 +45,9 @@ length x = 2.2c = 2.2*0.6096 = 1.34112
 length y = 0.3c = 0.3*0.6096 = 0.18288
 length z = 0.3c = 0.3*0.6096 = 0.18288
 Average element size c/128
+
+Surface Mesh:
+Average element size: c/128
 
 Extrusion:
 Element size along extrusion = c/5 = 0.6096/5 = 0.12192
