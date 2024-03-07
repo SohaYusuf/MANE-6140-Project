@@ -1,4 +1,4 @@
-Run on 03/07/2024 2:31PM
+Run on 03/07/2024 3:00PM
 
 Air
 Freestream velocity = 40 m/s 
@@ -27,12 +27,12 @@ mesh details:
 - two edge curves of
 the airfoil on the +Z normal
 face
-- Average element size c/256
+- Average element size c/128
 
 2. “Edge Layer”
 - two edge curves of the
 airfoil on the +Z normal face
-- First layer thickness to c/15,000
+- First layer thickness to c/100,000
 - Total number of layers to 30 
 - Growth method to Constant 
 - Growth rate to 1.2
@@ -44,10 +44,10 @@ Rectangular zone:
 length x = 2.2c = 2.2*0.6096 = 1.34112
 length y = 0.3c = 0.3*0.6096 = 0.18288
 length z = 0.3c = 0.3*0.6096 = 0.18288
-Average element size c/256
+Average element size c/128
 
 Surface Mesh:
-Average element size: c/256
+Average element size: c/128
 
 Extrusion:
 Element size along extrusion = c/5 = 0.6096/5 = 0.12192
@@ -55,7 +55,3 @@ Element size along extrusion = c/5 = 0.6096/5 = 0.12192
 3. "Volume”
 - Mesh size to ‘Maximum Size’
 - Maximum element size to c = 0.6096
-
-
-
-
