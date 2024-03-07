@@ -1,0 +1,218 @@
+03/07/2024 10:01:08: Problem = naca_0012_0.6096
+03/07/2024 10:01:08: Run = 100108
+03/07/2024 10:01:08: Operation = surf/volm
+03/07/2024 10:01:09: Processing loadings.
+03/07/2024 10:01:09: Ready
+03/07/2024 10:01:09: No change. Total selected 0
+03/07/2024 10:01:09: Ready
+03/07/2024 10:01:09: Processing solveroptions.
+03/07/2024 10:01:09: Ready
+03/07/2024 10:01:09: 1 solveroption added. Total selected 1
+03/07/2024 10:01:09: Ready
+03/07/2024 10:01:09: Processing regions.
+03/07/2024 10:01:09: Ready
+03/07/2024 10:01:09: 1 region added. Total selected 1
+03/07/2024 10:01:09: Processing regions.
+03/07/2024 10:01:09: Ready
+03/07/2024 10:01:09: 1 region added. Total selected 1
+03/07/2024 10:01:09: Ready
+03/07/2024 10:01:09: Processing meshcontrols.
+03/07/2024 10:01:09: Ready
+03/07/2024 10:01:09: 1 meshcontrol added. Total selected 1
+03/07/2024 10:01:09: Processing meshcontrols.
+03/07/2024 10:01:09: Ready
+03/07/2024 10:01:09: 1 meshcontrol added. Total selected 2
+03/07/2024 10:01:09: Processing meshcontrols.
+03/07/2024 10:01:09: Ready
+03/07/2024 10:01:09: 1 meshcontrol added. Total selected 3
+03/07/2024 10:01:09: Processing meshcontrols.
+03/07/2024 10:01:09: Ready
+03/07/2024 10:01:09: 1 meshcontrol added. Total selected 4
+03/07/2024 10:01:09: Processing meshcontrols.
+03/07/2024 10:01:09: Ready
+03/07/2024 10:01:09: 1 meshcontrol added. Total selected 5
+03/07/2024 10:01:09: Ready
+03/07/2024 10:01:09: Deleting selected data.
+03/07/2024 10:01:09: Ready
+03/07/2024 10:01:09: 5 entities were deleted.
+03/07/2024 10:01:09: Ready
+03/07/2024 10:01:10: *setvalue:  Invalid input at "={regions }"
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: Surface Mesh Begin
+03/07/2024 10:01:10: Processing components.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: No change. Total selected 0
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: Processing surfaces.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 6 surfaces added. Total selected 6
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: Processing solveroptions.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 1 solveroption added. Total selected 1
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: Processing regions.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 1 region added. Total selected 1
+03/07/2024 10:01:10: Processing regions.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 1 region added. Total selected 1
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: Processing surfaces.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 1 surface added. Total selected 1
+03/07/2024 10:01:10: Processing surfaces.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 4 surfaces added. Total selected 5
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: Surface Mesh End
+03/07/2024 10:01:10: Processing surfaces.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 6 surfaces added. Total selected 6
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: Processing solveroptions.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 1 solveroption added. Total selected 1
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: Processing regions.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 1 region added. Total selected 1
+03/07/2024 10:01:10: Processing regions.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 1 region added. Total selected 1
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: Processing solveroptions.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 1 solveroption added. Total selected 1
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: Processing regions.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 1 region added. Total selected 1
+03/07/2024 10:01:10: Processing regions.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 1 region added. Total selected 1
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: Processing surfaces.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 1 surface added. Total selected 1
+03/07/2024 10:01:10: Processing surfaces.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 4 surfaces added. Total selected 5
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: Processing sets.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: Processing sets.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: No change. Total selected 0
+03/07/2024 10:01:10: Processing elements.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 69855 elements added. Total selected 69855
+03/07/2024 10:01:10: Processing elements.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: Start model checking...
+03/07/2024 10:01:10: The mesh is OK for tetramesh.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 69855 elems: x=0 pairs, prx=0 @ 1e-06, angle=0 @ 0.5, dups=0 on 0
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: Processing lines.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 12 lines added. Total selected 12
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: Processing solveroptions.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 1 solveroption added. Total selected 1
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: Processing regions.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 1 region added. Total selected 1
+03/07/2024 10:01:10: Processing regions.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 1 region added. Total selected 1
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: Processing solveroptions.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 1 solveroption added. Total selected 1
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: Processing regions.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 1 region added. Total selected 1
+03/07/2024 10:01:10: Processing regions.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 1 region added. Total selected 1
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: Processing solveroptions.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 1 solveroption added. Total selected 1
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: Processing regions.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 1 region added. Total selected 1
+03/07/2024 10:01:10: Processing regions.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 1 region added. Total selected 1
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: Processing surfaces.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 1 surface added. Total selected 1
+03/07/2024 10:01:10: Processing surfaces.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 4 surfaces added. Total selected 5
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: Surface Mesh Validated
+03/07/2024 10:01:10: Volume Mesh Begin
+03/07/2024 10:01:10: Processing regions.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 23 regions added. Total selected 23
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: Processing meshcontrols.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 2 meshcontrols added. Total selected 2
+03/07/2024 10:01:10: Processing meshcontrols.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 2 meshcontrols added. Total selected 4
+03/07/2024 10:01:10: Processing meshcontrols.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 1 meshcontrol added. Total selected 1
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: Processing meshcontrols.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 1 meshcontrol added. Total selected 1
+03/07/2024 10:01:10: Processing meshcontrols.
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: 1 meshcontrol added. Total selected 5
+03/07/2024 10:01:10: Ready
+03/07/2024 10:01:10: Start meshing...
+03/07/2024 10:01:10: Create size tree 1/1 zones...
+03/07/2024 10:01:10: Create size tree with 1 zones...done.
+03/07/2024 10:01:11: Detect mappables: 1st/1 solid (id=1)
+03/07/2024 10:01:11: Detect mappables: 1st/1 solid (id=1).
+03/07/2024 10:01:11: activate geom gap correction algo.
+03/07/2024 10:01:11: Init solidmap for solid 1
+03/07/2024 10:01:11: Init side faces parametrization...
+03/07/2024 10:01:11: Optimizing parametrization: face loop 0...
+03/07/2024 10:01:11: Optimizing parametrization: face loop 1...
+03/07/2024 10:01:11: Setup edge correction matrices...
+03/07/2024 10:01:11: Setup boundary handles...
+03/07/2024 10:01:11: Setup boundary handles: 698/38952 done.
+03/07/2024 10:01:14: Init boundary handles: 397/698...
+03/07/2024 10:01:16: Extruding mesh...
+03/07/2024 10:01:16: Init solution matrix...
+03/07/2024 10:01:17: Smooth and Project to the dest surface...
+03/07/2024 10:01:18: Projecting: 27007/38952...
+03/07/2024 10:01:20: max r=0.00042 n=74993(intl 4) iter=11.5/94/100
+03/07/2024 10:01:22: Projecting: 26996/38952...
+03/07/2024 10:01:28: 2-surfs secondary input is not on the primary input and skipped.
+03/07/2024 10:01:28: **Warning: no BL/fluid volumes meshed, BL contouring skipped.
+03/07/2024 10:01:31: Mesh saved to 'C:\Users\soha9\AppData\Local\Temp/gfx_files_primaryModel_0_21772/cfd_mesh.hmg' in the work dir.
+03/07/2024 10:01:31: Ready
+03/07/2024 10:01:32: Importing hmg file
+03/07/2024 10:01:32: Ready
+03/07/2024 10:01:32: Ready
+03/07/2024 10:01:32: Moving selected entities...
+03/07/2024 10:01:32: Ready
+03/07/2024 10:01:32: 1 entities moved to the selected part.
+03/07/2024 10:01:32: Ready
+03/07/2024 10:01:32: Reorganizing the database.
+03/07/2024 10:01:32: Ready
+03/07/2024 10:01:32: Volume Mesh End
+03/07/2024 10:01:32: 
