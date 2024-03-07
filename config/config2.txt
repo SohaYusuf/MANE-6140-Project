@@ -2,10 +2,10 @@
 """ see lines 54 , 38 and 33
 """
 
-density 1.0kgm/s2
+density 1.0kg/m3
 viscosity 1e-05 m2/s
 Freestream velocity = 100 m/s 
-Reynold number = ?
+Reynold number = 6.096e6
 
 boundary conditions:
 1. No Slip
