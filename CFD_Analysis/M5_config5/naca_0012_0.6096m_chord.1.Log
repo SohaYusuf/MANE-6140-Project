@@ -1,0 +1,1203 @@
+acuRun: Core auto detection found 12 cores
+acuSolve:  ************************************************************************
+acuSolve:  **                                                                    **
+acuSolve:  **                                                                    **
+acuSolve:  **                         Altair AcuSolve(R)                         **
+acuSolve:  **                          Version: 2022.3                           **
+acuSolve:  **                    A General Purpose CFD Solver                    **
+acuSolve:  **                                                                    **
+acuSolve:  **                                                                    **
+acuSolve:  **                     Windows 8/10 v6.2.9200 x64                     **
+acuSolve:  **                              IDRISHAB                              **
+acuSolve:  **                             12 Core(s)                             **
+acuSolve:  **                         CPU speed 2600 MHz                         **
+acuSolve:  **                    3710 MB RAM,  32452 MB swap                     **
+acuSolve:  **                Build Tag 1160304aakas000_WCL:81231                 **
+acuSolve:  ************************************************************************
+acuSolve:  ** COPYRIGHT (C) 1996-2024                 Altair Engineering, Inc.   **
+acuSolve:  ** All Rights Reserved.  Copyright notice does not imply publication. **
+acuSolve:  ** Contains trade secrets of Altair Engineering, Inc.                 **
+acuSolve:  ** Decompilation or disassembly of this software strictly prohibited. **
+acuSolve:  ************************************************************************
+acuRun: Thu Mar  7 12:59:46 2024
+acuRun: acuRun 
+acuRun: Processing run 1 ...
+acuRun: Hostname = Idrishab
+acuRun: Release  = 2022.3
+acuRun: num_threads is reduced from (12) to (1)
+acuRun: Add C:/Program Files/Altair/2022.3/hwcfdsolvers/acusolve/win64/bin to PATH
+acuRun: set PATH=C:/Program Files/Altair/2022.3/hwcfdsolvers/acusolve/win64/bin;C:/Program Files/Altair/2022.3/hwcfdsolvers/acusolve/../../mpi/win64/mpich/bin;C:\Program Files\Altair\2022.3\hwcfdsolvers\acusolve\win64\base\edem;C:\Program Files\Altair\2022.3\hwcfdsolvers\acusolve\win64\bin;C:\Program Files\Altair\2022.3\hwcfdsolvers\acusolve\win64\base\bin;C:\Program Files\Altair\2022.3\hwcfdsolvers\acusolve\win64\base\DLLs;C:\Program Files\Altair\2022.3\hwcfdsolvers\acusolve\win64\base\lib\site-packages;C:\Program Files\Altair\2022.3\hwcfdsolvers\acusolve\win64\abaqus-odb\lib;C:\Program Files\Altair\2022.3\hwcfdsolvers\acusolve\win64\perl\bin;C:\Program Files\Altair\2022.3\common\python\python3.8\win64\DLLs;C:\Program Files\Altair\2022.3\hwdesktop\..\common\framework\win64\hwx\bin\win64;C:\Program Files\Altair\2022.3\hwdesktop\hwx\bin\win64;C:\Program Files\Altair\2022.3\hwdesktop\hw\bin\win64;C:\SIMULIA\Commands;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Users\habee\AppData\Local\Microsoft\WindowsApps;C:\Users\habee\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\ucrt64\bin;C:\Users\habee\AppData\Local\Box\Box Edit\
+acuRun: Run acuPrep ...
+acuRun: "C:/Program Files/Altair/2022.3/hwcfdsolvers/acusolve/win64/bin/acuPrep".exe -nst 1 -npt 1 
+acuPrep:                       Date = Thu Mar  7 12:59:46 2024
+acuPrep:                    Problem = naca_0012_0.6096m_chord
+acuPrep:                        Run = 1
+acuPrep:                   Hostname = IDRISHAB
+acuPrep:                   Platform = Windows 8/10 v6.2.9200 x64
+acuPrep:                    Machine = win64
+acuPrep:                   CPU name = 13th Gen Intel(R) Core(TM) i7-1355U
+acuPrep:                  CPU speed = 2600 MHz
+acuPrep:                  RAM space = 3708 Mbytes
+acuPrep:                 Swap space = 32452 Mbytes
+acuPrep:                    Release = 2022.3
+acuPrep:               Release date = Mar 22 2023
+acuPrep:                  Build Tag = 1160304aakas000_WCL:81231
+acuPrep:       Number of subdomains = 1
+acuPrep:          Number of threads = 1
+acuPrep:  Number of AcuPrep threads = 1
+acuPrep:          Working directory = ACUSIM.DIR
+acuPrep: ------------------------------------------------------------------
+acuPrep: Reading INCLUDE
+acuPrep: Processing INCLUDE
+acuPrep: INCLUDE: File MESH.DIR/naca_0012_0.6096m_chord_meshsets.inc
+acuPrep: Reading COORDINATE
+acuPrep: Reading VOLUME_SET( "naca_0012_0.6096m_chord.SolidBody_2_1.wedge6" )
+acuPrep: Reading VOLUME_SET( "naca_0012_0.6096m_chord.SolidBody_2_1.hex8" )
+acuPrep: Reading SURFACE_SET( "naca_0012_0.6096m_chord.SurfaceSet_1.quad4.SolidBody_2_1.hex8" )
+acuPrep: Reading SURFACE_SET( "naca_0012_0.6096m_chord.SurfaceSet_2.quad4.SolidBody_2_1.wedge6" )
+acuPrep: Reading SURFACE_SET( "naca_0012_0.6096m_chord.SurfaceSet_3.tria3.SolidBody_2_1.wedge6" )
+acuPrep: Reading SURFACE_SET( "naca_0012_0.6096m_chord.SurfaceSet_3.quad4.SolidBody_2_1.hex8" )
+acuPrep: Reading ANALYSIS
+acuPrep: Reading EQUATION
+acuPrep: Reading AUTO_SOLUTION_STRATEGY
+acuPrep: Processing AUTO_SOLUTION_STRATEGY
+acuPrep: AUTO_SOLUTION_STRATEGY: creating and including "naca_0012_0.6096m_chord.ss.inc" ...
+acuPrep: Reading TIME_SEQUENCE
+acuPrep: Reading STAGGER( "flow" )
+acuPrep: Reading STAGGER( "turbulence" )
+acuPrep: Reading TIME_INCREMENT
+acuPrep: Reading TIME_INTEGRATION
+acuPrep: Reading LINEAR_SOLVER_PARAMETERS
+acuPrep: Reading CONVERGENCE_CHECK_PARAMETERS
+acuPrep: Reading ALGEBRAIC_MULTIGRID_PARAMETERS
+acuPrep: Reading TIME_INTEGRATION
+acuPrep: *** WARNING: Multiple command issue
+acuPrep: Reading DENSITY_MODEL( "Air" )
+acuPrep: Reading CONDUCTIVITY_MODEL( "Air" )
+acuPrep: Reading SPECIFIC_HEAT_MODEL( "Air" )
+acuPrep: Reading VISCOSITY_MODEL( "Air" )
+acuPrep: Reading MATERIAL_MODEL( "Air" )
+acuPrep: Reading MESH_BOUNDARY_CONDITION( "Fixed" )
+acuPrep: Reading ELEMENT_SET( "naca_0012_0.6096m_chord SolidBody_2_1" )
+acuPrep: Reading NODAL_INITIAL_CONDITION( "pressure" )
+acuPrep: Reading SIMPLE_BOUNDARY_CONDITION( "Wall" )
+acuPrep: Reading SURFACE_OUTPUT( "Wall - Output" )
+acuPrep: Reading SIMPLE_BOUNDARY_CONDITION( "Far field" )
+acuPrep: Reading SURFACE_OUTPUT( "Far field - Output" )
+acuPrep: Reading SIMPLE_BOUNDARY_CONDITION( "Slip" )
+acuPrep: Reading SURFACE_OUTPUT( "Slip - Output" )
+acuPrep: Reading NODAL_OUTPUT
+acuPrep: Reading DERIVED_QUANTITY_OUTPUT
+acuPrep: Reading RESTART_OUTPUT
+acuPrep: Reading TIME_AVERAGE_OUTPUT
+acuPrep: Reading NODAL_RESIDUAL_OUTPUT
+acuPrep: Reading RUN
+acuPrep: Processing RUN
+acuPrep: Processing ANALYSIS
+acuPrep: Processing EQUATION
+acuPrep: Processing FIELD( "none" )
+acuPrep: Processing TURBULENCE_MODEL_PARAMETERS
+acuPrep: Processing USER_GLOBAL_DATA( "none" )
+acuPrep: Processing MULTIPLIER_FUNCTION( "none" )
+acuPrep: Processing RADIATION
+acuPrep: Processing SOLAR_RADIATION
+acuPrep: Processing PARTICLE_TRACE
+acuPrep: Processing EXTERNAL_CODE
+acuPrep: Processing REFERENCE_FRAME( "none" )
+acuPrep: Processing MESH_MOTION( "none" )
+acuPrep: Processing OPTIMIZATION
+acuPrep: Processing TIME_SEQUENCE
+acuPrep: Processing STAGGER( "flow" )
+acuPrep: Processing STAGGER( "turbulence" )
+acuPrep: Processing TIME_INCREMENT
+acuPrep: Processing CONVERGENCE_CHECK_PARAMETERS
+acuPrep: Processing ALGEBRAIC_MULTIGRID_PARAMETERS
+acuPrep: Processing TIME_INTEGRATION
+acuPrep: Processing LINEAR_SOLVER_PARAMETERS
+acuPrep: Processing GRAVITY( "none" )
+acuPrep: Processing MOMENTUM_SOURCE( "none" )
+acuPrep: Processing ROTATION_FORCE( "none" )
+acuPrep: Processing MASS_HEAT_SOURCE( "none" )
+acuPrep: Processing VOLUME_HEAT_SOURCE( "none" )
+acuPrep: Processing MASS_SPECIES_SOURCE( "none" )
+acuPrep: Processing VOLUME_SPECIES_SOURCE( "none" )
+acuPrep: Processing MASS_FIELD_SOURCE( "none" )
+acuPrep: Processing VOLUME_FIELD_SOURCE( "none" )
+acuPrep: Processing WAVE_DAMPING_SOURCE
+acuPrep: Processing BODY_FORCE( "none" )
+acuPrep: Processing DENSITY_MODEL( "none" )
+acuPrep: Processing DENSITY_MODEL( "Air" )
+acuPrep: Processing SPECIFIC_HEAT_MODEL( "none" )
+acuPrep: Processing SPECIFIC_HEAT_MODEL( "Air" )
+acuPrep: Processing VISCOSITY_MODEL( "none" )
+acuPrep: Processing VISCOSITY_MODEL( "Air" )
+acuPrep: Processing VISCOELASTIC_MODEL( "none" )
+acuPrep: Processing CONDUCTIVITY_MODEL( "none" )
+acuPrep: Processing CONDUCTIVITY_MODEL( "Air" )
+acuPrep: Processing DIFFUSIVITY_MODEL( "none" )
+acuPrep: Processing POROSITY_MODEL( "none" )
+acuPrep: Processing MATERIAL_RADIATION_MODEL( "none" )
+acuPrep: Processing GAS_KINETIC_MODEL( "none" )
+acuPrep: Processing ELECTRICAL_RESISTIVITY_MODEL( "none" )
+acuPrep: Processing BATTERY_MODEL( "none" )
+acuPrep: Processing MATERIAL_MODEL( "none" )
+acuPrep: Processing MATERIAL_MODEL( "Air" )
+acuPrep: Processing SURFACE_TENSION_MODEL( "none" )
+acuPrep: Processing CONTACT_ANGLE_MODEL( "none" )
+acuPrep: Processing FIELD_INTERACTION_MODEL( "none" )
+acuPrep: Processing MULTI_FIELD_MODEL( "none" )
+acuPrep: Processing EMISSIVITY_MODEL( "none" )
+acuPrep: Processing SOLAR_RADIATION_MODEL( "none" )
+acuPrep: Processing BATTERY_COMPONENT_MODEL( "none" )
+acuPrep: Processing BATTERY_MODULE( "none" )
+acuPrep: Processing COORDINATE
+acuPrep:            2D mesh direction =          Z
+acuPrep: Processing NODAL_INITIAL_CONDITION( "pressure" )
+acuPrep: Processing NODAL_OUTPUT
+acuPrep: Processing DERIVED_QUANTITY_OUTPUT
+acuPrep: Processing RUNNING_AVERAGE_OUTPUT
+acuPrep: Processing TIME_AVERAGE_OUTPUT
+acuPrep: Processing RESTART_OUTPUT
+acuPrep: Processing ERROR_ESTIMATOR_OUTPUT
+acuPrep: Processing NODAL_RESIDUAL_OUTPUT
+acuPrep: Processing VOLUME_SET( "naca_0012_0.6096m_chord.SolidBody_2_1.wedge6" )
+acuPrep: Processing VOLUME_SET( "naca_0012_0.6096m_chord.SolidBody_2_1.hex8" )
+acuPrep: Processing ELEMENT_SET( "naca_0012_0.6096m_chord SolidBody_2_1" )
+acuPrep: Processing SURFACE_SET( "naca_0012_0.6096m_chord.SurfaceSet_1.quad4.SolidBody_2_1.hex8" )
+acuPrep: Processing SURFACE_SET( "naca_0012_0.6096m_chord.SurfaceSet_2.quad4.SolidBody_2_1.wedge6" )
+acuPrep: Processing SURFACE_SET( "naca_0012_0.6096m_chord.SurfaceSet_3.tria3.SolidBody_2_1.wedge6" )
+acuPrep: Processing SURFACE_SET( "naca_0012_0.6096m_chord.SurfaceSet_3.quad4.SolidBody_2_1.hex8" )
+acuPrep: Processing FIELD_BOUNDARY_CONDITION( "none" )
+acuPrep: Processing SIMPLE_BOUNDARY_CONDITION( "Wall" )
+acuPrep: Processing SIMPLE_BOUNDARY_CONDITION( "Far field" )
+acuPrep: Processing SIMPLE_BOUNDARY_CONDITION( "Slip" )
+acuPrep: Processing MESH_BOUNDARY_CONDITION( "Fixed" )
+acuPrep: Processing SURFACE_OUTPUT( "Wall - Output" )
+acuPrep: Processing SURFACE_OUTPUT( "Far field - Output" )
+acuPrep: Processing SURFACE_OUTPUT( "Slip - Output" )
+acuPrep: *** WARNING: surface output on 2D plane ignored
+acuPrep: *** WARNING: surface output on 2D plane ignored
+acuPrep: Processing FWH_OUTPUT
+acuPrep: Processing VAO_OUTPUT
+acuPrep: ------------------------------------------------------------------
+acuPrep:          Minimum coordinates = -3.0480e+01 -3.0479e+01  0.0000e+00
+acuPrep:          Maximum coordinates =  3.0480e+01  3.0479e+01  1.2192e-01
+acuPrep:                   Dimensions =  6.0960e+01  6.0958e+01  1.2192e-01
+acuPrep:                  Total nodes =      77462
+acuPrep:               Total elements =      71564
+acuPrep:                Element aggl. =          1
+acuPrep:    Total aggl. rad. surfaces =          0
+acuPrep:     Total interface surfaces =          0
+acuPrep: ------------------------------------------------------------------
+acuPrep:                  Output data = Subdomain 0
+acuPrep:                  Output data = Domain decomposition
+acuPrep:                  Output data = Surface output
+acuPrep: ------------------------------------------------------------------
+acuPrep:       Input  CPU/Elapse time = 3.100000e-02 4.000000e-02 Sec
+acuPrep:       Proc.  CPU/Elapse time = 2.660000e-01 5.020000e-01 Sec
+acuPrep:       Solar  CPU/Elapse time = 0.000000e+00 0.000000e+00 Sec
+acuPrep:       DDC    CPU/Elapse time = 3.100000e-02 3.600000e-02 Sec
+acuPrep:       Output CPU/Elapse time = 3.100000e-02 8.000000e-02 Sec
+acuPrep:       Total  CPU/Elapse time = 3.740000e-01 6.820000e-01 Sec
+acuPrep:            Total Memory Size = 1.280000e+02 Mbytes
+acuRun: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+acuRun: No enclosure radiation found: Bypassing acuView
+acuRun: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+acuRun: Run acuSolve ...
+acuRun: Add C:/Program Files/Altair/2022.3/hwcfdsolvers/acusolve/../../mpi/win64/mpich/bin to PATH
+acuRun: set PATH=C:/Program Files/Altair/2022.3/hwcfdsolvers/acusolve/../../mpi/win64/mpich/bin;C:/Program Files/Altair/2022.3/hwcfdsolvers/acusolve/win64/bin;C:/Program Files/Altair/2022.3/hwcfdsolvers/acusolve/../../mpi/win64/mpich/bin;C:\Program Files\Altair\2022.3\hwcfdsolvers\acusolve\win64\base\edem;C:\Program Files\Altair\2022.3\hwcfdsolvers\acusolve\win64\bin;C:\Program Files\Altair\2022.3\hwcfdsolvers\acusolve\win64\base\bin;C:\Program Files\Altair\2022.3\hwcfdsolvers\acusolve\win64\base\DLLs;C:\Program Files\Altair\2022.3\hwcfdsolvers\acusolve\win64\base\lib\site-packages;C:\Program Files\Altair\2022.3\hwcfdsolvers\acusolve\win64\abaqus-odb\lib;C:\Program Files\Altair\2022.3\hwcfdsolvers\acusolve\win64\perl\bin;C:\Program Files\Altair\2022.3\common\python\python3.8\win64\DLLs;C:\Program Files\Altair\2022.3\hwdesktop\..\common\framework\win64\hwx\bin\win64;C:\Program Files\Altair\2022.3\hwdesktop\hwx\bin\win64;C:\Program Files\Altair\2022.3\hwdesktop\hw\bin\win64;C:\SIMULIA\Commands;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Users\habee\AppData\Local\Microsoft\WindowsApps;C:\Users\habee\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\ucrt64\bin;C:\Users\habee\AppData\Local\Box\Box Edit\
+acuRun: "C:/Program Files/Altair/2022.3/hwcfdsolvers/acusolve/win64/bin/acuSolve".exe -np 1 -nt 1
+acuSolve: Topology linear DC-capturing on
+acuSolve: AcuSolve checked out license from HyperWorks
+acuSolve:                       Date = Thu Mar  7 12:59:49 2024
+acuSolve:                    Problem = naca_0012_0.6096m_chord
+acuSolve:                        Run = 1
+acuSolve:                      Title = naca_0012_0.6096m_chord
+acuSolve:                   Subtitle = 
+acuSolve:                  Base unit = unknown
+acuSolve:                   Hostname = IDRISHAB
+acuSolve:                   Platform = Windows 8/10 v6.2.9200 x64
+acuSolve:                    Machine = win64
+acuSolve:                   CPU name = 13th Gen Intel(R) Core(TM) i7-1355U
+acuSolve:                  CPU speed = 2600 MHz
+acuSolve:                  RAM space = 3413 Mbytes
+acuSolve:                 Swap space = 32452 Mbytes
+acuSolve:                    Release = 2022.3
+acuSolve:               Release date = Mar 22 2023
+acuSolve:                  Build Tag = 1160304aakas000_WCL:81231
+acuSolve:       Message passing type = none
+acuSolve:       Number of subdomains = 1
+acuSolve:       Number of processors = 1
+acuSolve:                  Non-zeros = 1120484
+acuSolve:          Working directory = ACUSIM.DIR
+acuSolve: ---------------------- Input Phase --------------------------
+acuSolve: Input CPU/Elapse time      = 2.960000e-01 2.509000e+00 Sec
+acuSolve: Input Memory Usage         = 2.170000e+02 Mbytes
+acuSolve: Initializing based on Stokes:
+acuSolve:     CGP      No iterations =        134
+acuSolve:     CGP        0/1/n norms = 2.368230e-05 8.692420e-05 2.152543e-07
+acuSolve:     CGP   Iter. CPU/Elapse = 1.484000e+00 2.314000e+00 
+acuSolve:     GMRES    No iterations =       1000 (100.00)
+acuSolve:     GMRES      0/1/n norms = 2.772594e-05 1.121578e+00 9.116023e-05
+acuSolve:     GMRES Iter. CPU/Elapse = 2.534300e+01 3.815900e+01 
+acuSolve: Initializing turbulence field variables
+acuSolve:   Eddy visc.   min/ave/max =  3.836994e-04  1.446684e-03  1.453878e-03
+acuSolve: Init. CPU/Elapse time      = 2.726600e+01 4.106500e+01 Sec
+acuSolve: ---------------------- Begin Time Step ----------------------
+acuSolve: Time-Step=    1 ; timeInc= 1.000000e+10 ; time= 0.000000e+00
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 2.247484e-02
+acuSolve:     velocity     res ratio = 6.739930e-01
+acuSolve:     CGP      No iterations =        469
+acuSolve:     CGP        0/1/n norms = 1.501237e-03 1.067442e-03 1.488216e-05
+acuSolve:     CGP   Iter. CPU/Elapse = 4.202000e+00 6.829000e+00 
+acuSolve:     GMRES    No iterations =        500 (50.00)
+acuSolve:     GMRES      0/1/n norms = 1.046175e-02 2.346194e-02 7.797205e-05
+acuSolve:     GMRES Iter. CPU/Elapse = 9.359000e+00 1.497700e+01 
+acuSolve:     pressure     sol ratio = 2.160763e+03
+acuSolve:     velocity     sol ratio = 1.268405e+00
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 7.046786e-01
+acuSolve:     GMRES    No iterations =        181 (4.53)
+acuSolve:     GMRES      0/1/n norms = 2.765888e-07 2.765888e-07 2.669817e-09
+acuSolve:     GMRES Iter. CPU/Elapse = 7.660000e-01 1.090000e+00 
+acuSolve:     eddy-visc.   sol ratio = 3.991270e+00
+acuSolve:   CFL timeInc              = 9.381727e-05
+acuSolve:   Step CPU/Elapse time     = 1.598400e+01 2.540600e+01 Sec
+acuSolve: Time-Step=    2 ; timeInc= 1.000000e+10 ; time= 1.000000e+10
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 9.077343e-03
+acuSolve:     velocity     res ratio = 5.153731e-03
+acuSolve:     CGP      No iterations =        345
+acuSolve:     CGP        0/1/n norms = 1.184352e-03 6.926356e-04 1.175213e-05
+acuSolve:     CGP   Iter. CPU/Elapse = 2.531000e+00 4.082000e+00 
+acuSolve:     GMRES    No iterations =        250 (25.00)
+acuSolve:     GMRES      0/1/n norms = 6.502263e-03 1.089562e-02 8.994699e-05
+acuSolve:     GMRES Iter. CPU/Elapse = 4.703000e+00 7.481000e+00 
+acuSolve:     pressure     sol ratio = 1.127971e+00
+acuSolve:     velocity     sol ratio = 8.674926e-01
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 5.920610e-01
+acuSolve:     GMRES    No iterations =        185 (4.63)
+acuSolve:     GMRES      0/1/n norms = 8.686668e-08 8.686668e-08 8.627349e-10
+acuSolve:     GMRES Iter. CPU/Elapse = 8.440000e-01 1.231000e+00 
+acuSolve:     eddy-visc.   sol ratio = 8.481224e-01
+acuSolve:   CFL timeInc              = 1.149364e-04
+acuSolve:   Step CPU/Elapse time     = 9.344000e+00 1.494300e+01 Sec
+acuSolve: Time-Step=    3 ; timeInc= 1.000000e+10 ; time= 2.000000e+10
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 3.338851e-03
+acuSolve:     velocity     res ratio = 1.048856e-02
+acuSolve:     CGP      No iterations =        231
+acuSolve:     CGP        0/1/n norms = 4.148179e-04 6.867219e-04 4.112253e-06
+acuSolve:     CGP   Iter. CPU/Elapse = 1.766000e+00 2.771000e+00 
+acuSolve:     GMRES    No iterations =        125 (12.50)
+acuSolve:     GMRES      0/1/n norms = 3.995716e-03 4.637468e-03 2.713554e-04
+acuSolve:     GMRES Iter. CPU/Elapse = 2.343000e+00 3.800000e+00 
+acuSolve:     pressure     sol ratio = 1.454300e+00
+acuSolve:     velocity     sol ratio = 4.986895e-01
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 5.626938e-01
+acuSolve:     GMRES    No iterations =        171 (4.28)
+acuSolve:     GMRES      0/1/n norms = 4.339838e-08 4.339838e-08 4.259237e-10
+acuSolve:     GMRES Iter. CPU/Elapse = 1.234000e+00 1.604000e+00 
+acuSolve:     eddy-visc.   sol ratio = 4.996184e-01
+acuSolve:   CFL timeInc              = 5.577244e-05
+acuSolve:   Step CPU/Elapse time     = 7.140000e+00 1.088000e+01 Sec
+acuSolve: Time-Step=    4 ; timeInc= 1.000000e+10 ; time= 3.000000e+10
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 2.264853e-03
+acuSolve:     velocity     res ratio = 1.470692e-02
+acuSolve:     CGP      No iterations =        259
+acuSolve:     CGP        0/1/n norms = 3.353373e-04 4.986306e-04 3.333976e-06
+acuSolve:     CGP   Iter. CPU/Elapse = 2.859000e+00 4.121000e+00 
+acuSolve:     GMRES    No iterations =        110 (11.00)
+acuSolve:     GMRES      0/1/n norms = 2.175594e-03 2.540925e-03 2.174682e-04
+acuSolve:     GMRES Iter. CPU/Elapse = 2.797000e+00 4.242000e+00 
+acuSolve:     pressure     sol ratio = 5.245842e-01
+acuSolve:     velocity     sol ratio = 4.872803e-01
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 4.899230e-01
+acuSolve:     GMRES    No iterations =        160 (4.00)
+acuSolve:     GMRES      0/1/n norms = 2.117902e-08 2.117902e-08 2.103745e-10
+acuSolve:     GMRES Iter. CPU/Elapse = 8.600000e-01 1.479000e+00 
+acuSolve:     eddy-visc.   sol ratio = 4.401263e-01
+acuSolve:   CFL timeInc              = 4.638601e-05
+acuSolve:   Step CPU/Elapse time     = 8.391000e+00 1.273600e+01 Sec
+acuSolve: Time-Step=    5 ; timeInc= 1.000000e+10 ; time= 4.000000e+10
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 1.244534e-03
+acuSolve:     velocity     res ratio = 1.800035e-02
+acuSolve:     CGP      No iterations =        204
+acuSolve:     CGP        0/1/n norms = 2.548105e-04 3.521654e-04 2.481650e-06
+acuSolve:     CGP   Iter. CPU/Elapse = 1.922000e+00 3.223000e+00 
+acuSolve:     GMRES    No iterations =        135 (13.50)
+acuSolve:     GMRES      0/1/n norms = 1.197628e-03 1.376161e-03 1.197219e-04
+acuSolve:     GMRES Iter. CPU/Elapse = 3.484000e+00 5.209000e+00 
+acuSolve:     pressure     sol ratio = 5.687073e-01
+acuSolve:     velocity     sol ratio = 4.718381e-01
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 3.554987e-01
+acuSolve:     GMRES    No iterations =        152 (3.80)
+acuSolve:     GMRES      0/1/n norms = 1.039071e-08 1.039071e-08 1.011054e-10
+acuSolve:     GMRES Iter. CPU/Elapse = 9.700000e-01 1.415000e+00 
+acuSolve:     eddy-visc.   sol ratio = 4.697130e-01
+acuSolve:   CFL timeInc              = 3.579626e-05
+acuSolve:   Step CPU/Elapse time     = 8.656000e+00 1.295900e+01 Sec
+acuSolve: Time-Step=    6 ; timeInc= 1.000000e+10 ; time= 5.000000e+10
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 6.419752e-04
+acuSolve:     velocity     res ratio = 2.012775e-02
+acuSolve:     CGP      No iterations =        197
+acuSolve:     CGP        0/1/n norms = 1.813794e-04 1.908535e-04 1.740202e-06
+acuSolve:     CGP   Iter. CPU/Elapse = 2.266000e+00 3.271000e+00 
+acuSolve:     GMRES    No iterations =        163 (16.30)
+acuSolve:     GMRES      0/1/n norms = 6.833256e-04 7.189433e-04 6.821237e-05
+acuSolve:     GMRES Iter. CPU/Elapse = 4.906000e+00 6.441000e+00 
+acuSolve:     pressure     sol ratio = 8.206639e-01
+acuSolve:     velocity     sol ratio = 3.889339e-01
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 2.723614e-01
+acuSolve:     GMRES    No iterations =        183 (4.58)
+acuSolve:     GMRES      0/1/n norms = 5.042463e-09 5.042463e-09 5.030546e-11
+acuSolve:     GMRES Iter. CPU/Elapse = 1.234000e+00 1.700000e+00 
+acuSolve:     eddy-visc.   sol ratio = 3.869006e-01
+acuSolve:   CFL timeInc              = 2.124863e-05
+acuSolve:   Step CPU/Elapse time     = 1.078200e+01 1.449600e+01 Sec
+acuSolve: Time-Step=    7 ; timeInc= 1.000000e+10 ; time= 6.000000e+10
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 3.948817e-04
+acuSolve:     velocity     res ratio = 1.343433e-02
+acuSolve:     CGP      No iterations =        175
+acuSolve:     CGP        0/1/n norms = 1.350655e-04 1.519119e-04 1.319401e-06
+acuSolve:     CGP   Iter. CPU/Elapse = 2.109000e+00 2.942000e+00 
+acuSolve:     GMRES    No iterations =        191 (19.10)
+acuSolve:     GMRES      0/1/n norms = 4.286971e-04 4.292024e-04 4.286213e-05
+acuSolve:     GMRES Iter. CPU/Elapse = 5.531000e+00 7.569000e+00 
+acuSolve:     pressure     sol ratio = 4.354016e-01
+acuSolve:     velocity     sol ratio = 4.450740e-01
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 1.836424e-01
+acuSolve:     GMRES    No iterations =        258 (6.45)
+acuSolve:     GMRES      0/1/n norms = 3.442710e-09 3.442710e-09 3.425871e-11
+acuSolve:     GMRES Iter. CPU/Elapse = 1.703000e+00 2.388000e+00 
+acuSolve:     eddy-visc.   sol ratio = 5.122869e-01
+acuSolve:   CFL timeInc              = 1.458349e-05
+acuSolve:   Step CPU/Elapse time     = 1.142100e+01 1.599600e+01 Sec
+acuSolve: Time-Step=    8 ; timeInc= 1.000000e+10 ; time= 7.000000e+10
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 2.844077e-04
+acuSolve:     velocity     res ratio = 1.393955e-02
+acuSolve:     CGP      No iterations =        178
+acuSolve:     CGP        0/1/n norms = 1.047311e-04 1.039500e-04 1.010799e-06
+acuSolve:     CGP   Iter. CPU/Elapse = 2.141000e+00 3.025000e+00 
+acuSolve:     GMRES    No iterations =        169 (16.90)
+acuSolve:     GMRES      0/1/n norms = 2.918511e-04 2.797446e-04 2.908064e-05
+acuSolve:     GMRES Iter. CPU/Elapse = 4.907000e+00 6.666000e+00 
+acuSolve:     pressure     sol ratio = 5.694545e-01
+acuSolve:     velocity     sol ratio = 3.122603e-01
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 1.391201e-01
+acuSolve:     GMRES    No iterations =        256 (6.40)
+acuSolve:     GMRES      0/1/n norms = 3.075119e-09 3.075119e-09 3.024890e-11
+acuSolve:     GMRES Iter. CPU/Elapse = 1.578000e+00 2.375000e+00 
+acuSolve:     eddy-visc.   sol ratio = 6.632335e-01
+acuSolve:   CFL timeInc              = 1.203902e-05
+acuSolve:   Step CPU/Elapse time     = 1.076600e+01 1.515500e+01 Sec
+acuSolve: Time-Step=    9 ; timeInc= 1.000000e+10 ; time= 8.000000e+10
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 2.080890e-04
+acuSolve:     velocity     res ratio = 1.333553e-02
+acuSolve:     CGP      No iterations =        150
+acuSolve:     CGP        0/1/n norms = 7.976553e-05 5.321311e-05 7.797084e-07
+acuSolve:     CGP   Iter. CPU/Elapse = 2.031000e+00 2.579000e+00 
+acuSolve:     GMRES    No iterations =        224 (22.40)
+acuSolve:     GMRES      0/1/n norms = 2.020738e-04 2.031328e-04 2.019417e-05
+acuSolve:     GMRES Iter. CPU/Elapse = 6.453000e+00 8.882000e+00 
+acuSolve:     pressure     sol ratio = 2.777400e-01
+acuSolve:     velocity     sol ratio = 3.210074e-01
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 1.469381e-01
+acuSolve:     GMRES    No iterations =        271 (6.78)
+acuSolve:     GMRES      0/1/n norms = 4.791643e-09 4.791643e-09 4.739668e-11
+acuSolve:     GMRES Iter. CPU/Elapse = 1.765000e+00 2.518000e+00 
+acuSolve:     eddy-visc.   sol ratio = 7.349754e-01
+acuSolve:   CFL timeInc              = 1.105338e-05
+acuSolve:   Step CPU/Elapse time     = 1.260900e+01 1.709400e+01 Sec
+acuSolve: Time-Step=   10 ; timeInc= 1.000000e+10 ; time= 9.000000e+10
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 1.378182e-04
+acuSolve:     velocity     res ratio = 1.489472e-02
+acuSolve:     CGP      No iterations =        165
+acuSolve:     CGP        0/1/n norms = 6.332531e-05 4.498236e-05 6.315533e-07
+acuSolve:     CGP   Iter. CPU/Elapse = 2.016000e+00 2.764000e+00 
+acuSolve:     GMRES    No iterations =        163 (16.30)
+acuSolve:     GMRES      0/1/n norms = 1.529234e-04 1.349965e-04 1.526044e-05
+acuSolve:     GMRES Iter. CPU/Elapse = 4.422000e+00 6.231000e+00 
+acuSolve:     pressure     sol ratio = 2.442905e-01
+acuSolve:     velocity     sol ratio = 1.996699e-01
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 1.242546e-01
+acuSolve:     GMRES    No iterations =        216 (5.40)
+acuSolve:     GMRES      0/1/n norms = 5.663571e-09 5.663571e-09 5.657364e-11
+acuSolve:     GMRES Iter. CPU/Elapse = 1.453000e+00 2.013000e+00 
+acuSolve:     eddy-visc.   sol ratio = 4.637038e-01
+acuSolve:   CFL timeInc              = 1.039103e-05
+acuSolve:   Step CPU/Elapse time     = 1.020400e+01 1.412200e+01 Sec
+acuSolve: Time-Step=   11 ; timeInc= 1.000000e+10 ; time= 1.000000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 1.036387e-04
+acuSolve:     velocity     res ratio = 1.255468e-02
+acuSolve:     CGP      No iterations =        135
+acuSolve:     CGP        0/1/n norms = 5.239328e-05 4.029165e-05 5.223706e-07
+acuSolve:     CGP   Iter. CPU/Elapse = 1.156000e+00 2.107000e+00 
+acuSolve:     GMRES    No iterations =        218 (21.80)
+acuSolve:     GMRES      0/1/n norms = 1.237465e-04 1.035789e-04 1.236358e-05
+acuSolve:     GMRES Iter. CPU/Elapse = 5.250000e+00 8.254000e+00 
+acuSolve:     pressure     sol ratio = 1.472225e-01
+acuSolve:     velocity     sol ratio = 2.268296e-01
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 1.047455e-01
+acuSolve:     GMRES    No iterations =        189 (4.72)
+acuSolve:     GMRES      0/1/n norms = 6.204017e-09 6.204017e-09 6.189217e-11
+acuSolve:     GMRES Iter. CPU/Elapse = 1.125000e+00 1.731000e+00 
+acuSolve:     eddy-visc.   sol ratio = 2.511227e-01
+acuSolve:   CFL timeInc              = 1.008361e-05
+acuSolve:   Step CPU/Elapse time     = 9.218000e+00 1.497700e+01 Sec
+acuSolve: Time-Step=   12 ; timeInc= 1.000000e+10 ; time= 1.100000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 7.326502e-05
+acuSolve:     velocity     res ratio = 1.529841e-02
+acuSolve:     CGP      No iterations =        133
+acuSolve:     CGP        0/1/n norms = 4.331673e-05 2.614743e-05 4.297958e-07
+acuSolve:     CGP   Iter. CPU/Elapse = 1.390000e+00 2.248000e+00 
+acuSolve:     GMRES    No iterations =        130 (13.00)
+acuSolve:     GMRES      0/1/n norms = 9.815078e-05 7.195994e-05 9.782315e-06
+acuSolve:     GMRES Iter. CPU/Elapse = 3.173000e+00 5.091000e+00 
+acuSolve:     pressure     sol ratio = 1.708795e-01
+acuSolve:     velocity     sol ratio = 1.180191e-01
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 7.184752e-02
+acuSolve:     GMRES    No iterations =        237 (5.92)
+acuSolve:     GMRES      0/1/n norms = 5.201118e-09 5.201118e-09 5.083640e-11
+acuSolve:     GMRES Iter. CPU/Elapse = 1.734000e+00 2.210000e+00 
+acuSolve:     eddy-visc.   sol ratio = 9.742920e-02
+acuSolve:   CFL timeInc              = 1.005272e-05
+acuSolve:   Step CPU/Elapse time     = 8.203000e+00 1.255700e+01 Sec
+acuSolve: Time-Step=   13 ; timeInc= 1.000000e+10 ; time= 1.200000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 5.228750e-05
+acuSolve:     velocity     res ratio = 1.339056e-02
+acuSolve:     CGP      No iterations =        137
+acuSolve:     CGP        0/1/n norms = 3.560922e-05 1.827648e-05 3.446809e-07
+acuSolve:     CGP   Iter. CPU/Elapse = 1.578000e+00 2.344000e+00 
+acuSolve:     GMRES    No iterations =        206 (20.60)
+acuSolve:     GMRES      0/1/n norms = 8.024767e-05 5.039060e-05 8.019816e-06
+acuSolve:     GMRES Iter. CPU/Elapse = 6.016000e+00 8.143000e+00 
+acuSolve:     pressure     sol ratio = 1.584975e-01
+acuSolve:     velocity     sol ratio = 1.631154e-01
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 5.447663e-02
+acuSolve:     GMRES    No iterations =        229 (5.72)
+acuSolve:     GMRES      0/1/n norms = 4.743637e-09 4.743637e-09 4.697823e-11
+acuSolve:     GMRES Iter. CPU/Elapse = 1.672000e+00 2.107000e+00 
+acuSolve:     eddy-visc.   sol ratio = 1.341766e-01
+acuSolve:   CFL timeInc              = 9.972010e-06
+acuSolve:   Step CPU/Elapse time     = 1.125100e+01 1.564700e+01 Sec
+acuSolve: Time-Step=   14 ; timeInc= 1.000000e+10 ; time= 1.300000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 4.199871e-05
+acuSolve:     velocity     res ratio = 1.426035e-02
+acuSolve:     CGP      No iterations =        138
+acuSolve:     CGP        0/1/n norms = 2.992855e-05 1.816994e-05 2.887234e-07
+acuSolve:     CGP   Iter. CPU/Elapse = 1.484000e+00 2.396000e+00 
+acuSolve:     GMRES    No iterations =        157 (15.70)
+acuSolve:     GMRES      0/1/n norms = 6.620638e-05 4.604917e-05 6.599885e-06
+acuSolve:     GMRES Iter. CPU/Elapse = 4.672000e+00 6.163000e+00 
+acuSolve:     pressure     sol ratio = 1.416792e-01
+acuSolve:     velocity     sol ratio = 1.250519e-01
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 4.026007e-02
+acuSolve:     GMRES    No iterations =        184 (4.60)
+acuSolve:     GMRES      0/1/n norms = 2.971556e-09 2.971556e-09 2.928254e-11
+acuSolve:     GMRES Iter. CPU/Elapse = 1.391000e+00 1.698000e+00 
+acuSolve:     eddy-visc.   sol ratio = 2.048073e-01
+acuSolve:   CFL timeInc              = 1.009633e-05
+acuSolve:   Step CPU/Elapse time     = 1.003100e+01 1.338300e+01 Sec
+acuSolve: Time-Step=   15 ; timeInc= 1.000000e+10 ; time= 1.400000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 3.614308e-05
+acuSolve:     velocity     res ratio = 1.268275e-02
+acuSolve:     CGP      No iterations =        150
+acuSolve:     CGP        0/1/n norms = 2.551605e-05 1.399497e-05 2.543893e-07
+acuSolve:     CGP   Iter. CPU/Elapse = 2.047000e+00 2.593000e+00 
+acuSolve:     GMRES    No iterations =        160 (16.00)
+acuSolve:     GMRES      0/1/n norms = 5.590859e-05 3.692552e-05 5.573753e-06
+acuSolve:     GMRES Iter. CPU/Elapse = 4.593000e+00 6.397000e+00 
+acuSolve:     pressure     sol ratio = 9.309184e-02
+acuSolve:     velocity     sol ratio = 1.417799e-01
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 4.301190e-02
+acuSolve:     GMRES    No iterations =        193 (4.83)
+acuSolve:     GMRES      0/1/n norms = 2.792332e-09 2.792332e-09 2.776715e-11
+acuSolve:     GMRES Iter. CPU/Elapse = 1.501000e+00 1.791000e+00 
+acuSolve:     eddy-visc.   sol ratio = 2.224675e-01
+acuSolve:   CFL timeInc              = 1.018251e-05
+acuSolve:   Step CPU/Elapse time     = 1.007800e+01 1.387700e+01 Sec
+acuSolve: Time-Step=   16 ; timeInc= 1.000000e+10 ; time= 1.500000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 2.976507e-05
+acuSolve:     velocity     res ratio = 1.210038e-02
+acuSolve:     CGP      No iterations =        158
+acuSolve:     CGP        0/1/n norms = 2.166567e-05 1.061290e-05 2.123846e-07
+acuSolve:     CGP   Iter. CPU/Elapse = 2.062000e+00 2.704000e+00 
+acuSolve:     GMRES    No iterations =        228 (22.80)
+acuSolve:     GMRES      0/1/n norms = 4.741821e-05 3.249776e-05 4.733579e-06
+acuSolve:     GMRES Iter. CPU/Elapse = 6.141000e+00 8.979000e+00 
+acuSolve:     pressure     sol ratio = 8.023610e-02
+acuSolve:     velocity     sol ratio = 2.428770e-01
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 5.128521e-02
+acuSolve:     GMRES    No iterations =        176 (4.40)
+acuSolve:     GMRES      0/1/n norms = 3.026852e-09 3.026852e-09 3.010312e-11
+acuSolve:     GMRES Iter. CPU/Elapse = 1.297000e+00 1.652000e+00 
+acuSolve:     eddy-visc.   sol ratio = 2.695863e-01
+acuSolve:   CFL timeInc              = 1.018868e-05
+acuSolve:   Step CPU/Elapse time     = 1.168700e+01 1.640800e+01 Sec
+acuSolve: Time-Step=   17 ; timeInc= 1.000000e+10 ; time= 1.600000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 2.231452e-05
+acuSolve:     velocity     res ratio = 1.318670e-02
+acuSolve:     CGP      No iterations =        144
+acuSolve:     CGP        0/1/n norms = 1.835091e-05 1.016803e-05 1.825225e-07
+acuSolve:     CGP   Iter. CPU/Elapse = 1.812000e+00 2.484000e+00 
+acuSolve:     GMRES    No iterations =        130 (13.00)
+acuSolve:     GMRES      0/1/n norms = 3.953422e-05 2.599135e-05 3.940927e-06
+acuSolve:     GMRES Iter. CPU/Elapse = 3.625000e+00 5.145000e+00 
+acuSolve:     pressure     sol ratio = 8.562257e-02
+acuSolve:     velocity     sol ratio = 8.261915e-02
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 5.386911e-02
+acuSolve:     GMRES    No iterations =        141 (3.52)
+acuSolve:     GMRES      0/1/n norms = 2.608161e-09 2.608161e-09 2.557987e-11
+acuSolve:     GMRES Iter. CPU/Elapse = 1.000000e+00 1.292000e+00 
+acuSolve:     eddy-visc.   sol ratio = 2.561365e-01
+acuSolve:   CFL timeInc              = 9.062102e-06
+acuSolve:   Step CPU/Elapse time     = 8.391000e+00 1.204500e+01 Sec
+acuSolve: Time-Step=   18 ; timeInc= 1.000000e+10 ; time= 1.700000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 1.823219e-05
+acuSolve:     velocity     res ratio = 1.137767e-02
+acuSolve:     CGP      No iterations =        147
+acuSolve:     CGP        0/1/n norms = 1.576825e-05 8.417738e-06 1.502756e-07
+acuSolve:     CGP   Iter. CPU/Elapse = 1.687000e+00 2.548000e+00 
+acuSolve:     GMRES    No iterations =        165 (16.50)
+acuSolve:     GMRES      0/1/n norms = 3.405171e-05 2.388425e-05 3.398936e-06
+acuSolve:     GMRES Iter. CPU/Elapse = 4.422000e+00 6.541000e+00 
+acuSolve:     pressure     sol ratio = 5.791370e-02
+acuSolve:     velocity     sol ratio = 1.125256e-01
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 5.408291e-02
+acuSolve:     GMRES    No iterations =        171 (4.28)
+acuSolve:     GMRES      0/1/n norms = 2.033552e-09 2.033552e-09 2.002545e-11
+acuSolve:     GMRES Iter. CPU/Elapse = 9.380000e-01 1.496000e+00 
+acuSolve:     eddy-visc.   sol ratio = 2.304144e-01
+acuSolve:   CFL timeInc              = 7.897058e-06
+acuSolve:   Step CPU/Elapse time     = 9.437000e+00 1.369700e+01 Sec
+acuSolve: Time-Step=   19 ; timeInc= 1.000000e+10 ; time= 1.800000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 1.616839e-05
+acuSolve:     velocity     res ratio = 1.007959e-02
+acuSolve:     CGP      No iterations =        141
+acuSolve:     CGP        0/1/n norms = 1.366144e-05 6.591635e-06 1.356433e-07
+acuSolve:     CGP   Iter. CPU/Elapse = 1.657000e+00 2.452000e+00 
+acuSolve:     GMRES    No iterations =        175 (17.50)
+acuSolve:     GMRES      0/1/n norms = 2.907673e-05 1.804136e-05 2.901968e-06
+acuSolve:     GMRES Iter. CPU/Elapse = 4.421000e+00 6.921000e+00 
+acuSolve:     pressure     sol ratio = 3.717375e-02
+acuSolve:     velocity     sol ratio = 1.096457e-01
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 5.288872e-02
+acuSolve:     GMRES    No iterations =        131 (3.27)
+acuSolve:     GMRES      0/1/n norms = 1.557166e-09 1.557166e-09 1.544238e-11
+acuSolve:     GMRES Iter. CPU/Elapse = 7.510000e-01 1.227000e+00 
+acuSolve:     eddy-visc.   sol ratio = 2.185451e-01
+acuSolve:   CFL timeInc              = 7.282443e-06
+acuSolve:   Step CPU/Elapse time     = 9.188000e+00 1.373200e+01 Sec
+acuSolve: Time-Step=   20 ; timeInc= 1.000000e+10 ; time= 1.900000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 1.249570e-05
+acuSolve:     velocity     res ratio = 1.135159e-02
+acuSolve:     CGP      No iterations =        136
+acuSolve:     CGP        0/1/n norms = 1.181494e-05 4.964921e-06 1.123883e-07
+acuSolve:     CGP   Iter. CPU/Elapse = 1.704000e+00 2.376000e+00 
+acuSolve:     GMRES    No iterations =        152 (15.20)
+acuSolve:     GMRES      0/1/n norms = 2.502206e-05 1.371868e-05 2.500476e-06
+acuSolve:     GMRES Iter. CPU/Elapse = 3.781000e+00 6.023000e+00 
+acuSolve:     pressure     sol ratio = 4.760398e-02
+acuSolve:     velocity     sol ratio = 6.269795e-02
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 4.786688e-02
+acuSolve:     GMRES    No iterations =        144 (3.60)
+acuSolve:     GMRES      0/1/n norms = 1.157817e-09 1.157817e-09 1.156948e-11
+acuSolve:     GMRES Iter. CPU/Elapse = 8.130000e-01 1.228000e+00 
+acuSolve:     eddy-visc.   sol ratio = 1.958820e-01
+acuSolve:   CFL timeInc              = 6.899648e-06
+acuSolve:   Step CPU/Elapse time     = 8.531000e+00 1.262800e+01 Sec
+acuSolve: Time-Step=   21 ; timeInc= 1.000000e+10 ; time= 2.000000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 1.176201e-05
+acuSolve:     velocity     res ratio = 9.585751e-03
+acuSolve:     CGP      No iterations =        130
+acuSolve:     CGP        0/1/n norms = 1.027115e-05 4.481495e-06 1.006139e-07
+acuSolve:     CGP   Iter. CPU/Elapse = 1.828000e+00 2.296000e+00 
+acuSolve:     GMRES    No iterations =        201 (20.10)
+acuSolve:     GMRES      0/1/n norms = 2.158512e-05 1.357064e-05 2.158289e-06
+acuSolve:     GMRES Iter. CPU/Elapse = 5.640000e+00 8.002000e+00 
+acuSolve:     pressure     sol ratio = 5.112846e-02
+acuSolve:     velocity     sol ratio = 4.900599e-02
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 4.365678e-02
+acuSolve:     GMRES    No iterations =        149 (3.73)
+acuSolve:     GMRES      0/1/n norms = 8.928395e-10 8.928395e-10 8.912727e-12
+acuSolve:     GMRES Iter. CPU/Elapse = 1.125000e+00 1.381000e+00 
+acuSolve:     eddy-visc.   sol ratio = 1.713634e-01
+acuSolve:   CFL timeInc              = 6.990865e-06
+acuSolve:   Step CPU/Elapse time     = 1.078200e+01 1.479600e+01 Sec
+acuSolve: Time-Step=   22 ; timeInc= 1.000000e+10 ; time= 2.100000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 1.032614e-05
+acuSolve:     velocity     res ratio = 9.554816e-03
+acuSolve:     CGP      No iterations =        147
+acuSolve:     CGP        0/1/n norms = 9.041019e-06 3.907108e-06 8.751880e-08
+acuSolve:     CGP   Iter. CPU/Elapse = 1.703000e+00 2.516000e+00 
+acuSolve:     GMRES    No iterations =        139 (13.90)
+acuSolve:     GMRES      0/1/n norms = 1.887826e-05 1.161989e-05 1.881537e-06
+acuSolve:     GMRES Iter. CPU/Elapse = 4.063000e+00 5.532000e+00 
+acuSolve:     pressure     sol ratio = 3.037951e-02
+acuSolve:     velocity     sol ratio = 3.756097e-02
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 3.886729e-02
+acuSolve:     GMRES    No iterations =        145 (3.63)
+acuSolve:     GMRES      0/1/n norms = 6.578001e-10 6.578001e-10 6.507503e-12
+acuSolve:     GMRES Iter. CPU/Elapse = 8.440000e-01 1.337000e+00 
+acuSolve:     eddy-visc.   sol ratio = 1.319145e-01
+acuSolve:   CFL timeInc              = 6.577777e-06
+acuSolve:   Step CPU/Elapse time     = 8.859000e+00 1.254300e+01 Sec
+acuSolve: Time-Step=   23 ; timeInc= 1.000000e+10 ; time= 2.200000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 8.406870e-06
+acuSolve:     velocity     res ratio = 8.890945e-03
+acuSolve:     CGP      No iterations =        140
+acuSolve:     CGP        0/1/n norms = 7.960569e-06 3.315348e-06 7.734736e-08
+acuSolve:     CGP   Iter. CPU/Elapse = 1.609000e+00 2.421000e+00 
+acuSolve:     GMRES    No iterations =        132 (13.20)
+acuSolve:     GMRES      0/1/n norms = 1.671398e-05 1.096670e-05 1.668876e-06
+acuSolve:     GMRES Iter. CPU/Elapse = 3.577000e+00 5.236000e+00 
+acuSolve:     pressure     sol ratio = 2.576175e-02
+acuSolve:     velocity     sol ratio = 4.933224e-02
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 3.267550e-02
+acuSolve:     GMRES    No iterations =        131 (3.27)
+acuSolve:     GMRES      0/1/n norms = 4.610793e-10 4.610793e-10 4.593974e-12
+acuSolve:     GMRES Iter. CPU/Elapse = 8.900000e-01 1.227000e+00 
+acuSolve:     eddy-visc.   sol ratio = 1.018998e-01
+acuSolve:   CFL timeInc              = 7.093911e-06
+acuSolve:   Step CPU/Elapse time     = 8.312000e+00 1.201300e+01 Sec
+acuSolve: Time-Step=   24 ; timeInc= 1.000000e+10 ; time= 2.300000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 8.149210e-06
+acuSolve:     velocity     res ratio = 7.519920e-03
+acuSolve:     CGP      No iterations =        142
+acuSolve:     CGP        0/1/n norms = 6.946000e-06 3.125843e-06 6.900699e-08
+acuSolve:     CGP   Iter. CPU/Elapse = 1.781000e+00 2.486000e+00 
+acuSolve:     GMRES    No iterations =        187 (18.70)
+acuSolve:     GMRES      0/1/n norms = 1.457300e-05 1.092158e-05 1.454488e-06
+acuSolve:     GMRES Iter. CPU/Elapse = 5.157000e+00 7.387000e+00 
+acuSolve:     pressure     sol ratio = 3.424043e-02
+acuSolve:     velocity     sol ratio = 3.040631e-02
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 2.641699e-02
+acuSolve:     GMRES    No iterations =        136 (3.40)
+acuSolve:     GMRES      0/1/n norms = 3.338679e-10 3.338679e-10 3.334782e-12
+acuSolve:     GMRES Iter. CPU/Elapse = 8.290000e-01 1.228000e+00 
+acuSolve:     eddy-visc.   sol ratio = 7.948738e-02
+acuSolve:   CFL timeInc              = 7.207638e-06
+acuSolve:   Step CPU/Elapse time     = 1.018800e+01 1.421100e+01 Sec
+acuSolve: Time-Step=   25 ; timeInc= 1.000000e+10 ; time= 2.400000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 6.955633e-06
+acuSolve:     velocity     res ratio = 7.091648e-03
+acuSolve:     CGP      No iterations =        134
+acuSolve:     CGP        0/1/n norms = 6.117813e-06 2.571620e-06 5.919217e-08
+acuSolve:     CGP   Iter. CPU/Elapse = 1.780000e+00 2.372000e+00 
+acuSolve:     GMRES    No iterations =        121 (12.10)
+acuSolve:     GMRES      0/1/n norms = 1.274297e-05 8.616207e-06 1.270622e-06
+acuSolve:     GMRES Iter. CPU/Elapse = 3.595000e+00 4.811000e+00 
+acuSolve:     pressure     sol ratio = 1.741732e-02
+acuSolve:     velocity     sol ratio = 2.273135e-02
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 2.033974e-02
+acuSolve:     GMRES    No iterations =        126 (3.15)
+acuSolve:     GMRES      0/1/n norms = 2.344314e-10 2.344314e-10 2.322736e-12
+acuSolve:     GMRES Iter. CPU/Elapse = 8.280000e-01 1.198000e+00 
+acuSolve:     eddy-visc.   sol ratio = 5.445210e-02
+acuSolve:   CFL timeInc              = 7.400092e-06
+acuSolve:   Step CPU/Elapse time     = 8.562000e+00 1.152400e+01 Sec
+acuSolve: Time-Step=   26 ; timeInc= 1.000000e+10 ; time= 2.500000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 6.223868e-06
+acuSolve:     velocity     res ratio = 6.870057e-03
+acuSolve:     CGP      No iterations =        145
+acuSolve:     CGP        0/1/n norms = 5.444250e-06 2.290127e-06 5.397016e-08
+acuSolve:     CGP   Iter. CPU/Elapse = 1.891000e+00 2.515000e+00 
+acuSolve:     GMRES    No iterations =        154 (15.40)
+acuSolve:     GMRES      0/1/n norms = 1.133048e-05 8.364780e-06 1.132347e-06
+acuSolve:     GMRES Iter. CPU/Elapse = 4.171000e+00 6.130000e+00 
+acuSolve:     pressure     sol ratio = 2.079368e-02
+acuSolve:     velocity     sol ratio = 3.665517e-02
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 1.584977e-02
+acuSolve:     GMRES    No iterations =        123 (3.08)
+acuSolve:     GMRES      0/1/n norms = 1.680525e-10 1.680525e-10 1.670292e-12
+acuSolve:     GMRES Iter. CPU/Elapse = 8.750000e-01 1.166000e+00 
+acuSolve:     eddy-visc.   sol ratio = 3.537579e-02
+acuSolve:   CFL timeInc              = 7.174086e-06
+acuSolve:   Step CPU/Elapse time     = 9.015000e+00 1.290100e+01 Sec
+acuSolve: Time-Step=   27 ; timeInc= 1.000000e+10 ; time= 2.600000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 5.823715e-06
+acuSolve:     velocity     res ratio = 6.201333e-03
+acuSolve:     CGP      No iterations =        138
+acuSolve:     CGP        0/1/n norms = 4.810107e-06 2.125437e-06 4.731384e-08
+acuSolve:     CGP   Iter. CPU/Elapse = 1.766000e+00 2.421000e+00 
+acuSolve:     GMRES    No iterations =        220 (22.00)
+acuSolve:     GMRES      0/1/n norms = 9.990484e-06 8.172987e-06 9.972884e-07
+acuSolve:     GMRES Iter. CPU/Elapse = 5.922000e+00 8.462000e+00 
+acuSolve:     pressure     sol ratio = 2.555481e-02
+acuSolve:     velocity     sol ratio = 2.647799e-02
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 1.214385e-02
+acuSolve:     GMRES    No iterations =        152 (3.80)
+acuSolve:     GMRES      0/1/n norms = 1.247280e-10 1.247280e-10 1.224619e-12
+acuSolve:     GMRES Iter. CPU/Elapse = 1.110000e+00 1.402000e+00 
+acuSolve:     eddy-visc.   sol ratio = 2.383754e-02
+acuSolve:   CFL timeInc              = 6.975236e-06
+acuSolve:   Step CPU/Elapse time     = 1.114200e+01 1.542700e+01 Sec
+acuSolve: Time-Step=   28 ; timeInc= 1.000000e+10 ; time= 2.700000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 4.358461e-06
+acuSolve:     velocity     res ratio = 6.543778e-03
+acuSolve:     CGP      No iterations =        139
+acuSolve:     CGP        0/1/n norms = 4.250285e-06 1.744402e-06 4.200529e-08
+acuSolve:     CGP   Iter. CPU/Elapse = 1.797000e+00 2.405000e+00 
+acuSolve:     GMRES    No iterations =        110 (11.00)
+acuSolve:     GMRES      0/1/n norms = 8.781294e-06 5.608957e-06 8.657583e-07
+acuSolve:     GMRES Iter. CPU/Elapse = 3.172000e+00 4.342000e+00 
+acuSolve:     pressure     sol ratio = 1.243693e-02
+acuSolve:     velocity     sol ratio = 1.369191e-02
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 9.242748e-03
+acuSolve:     GMRES    No iterations =        184 (4.60)
+acuSolve:     GMRES      0/1/n norms = 1.018370e-10 1.018370e-10 1.013288e-12
+acuSolve:     GMRES Iter. CPU/Elapse = 9.530000e-01 1.575000e+00 
+acuSolve:     eddy-visc.   sol ratio = 2.182058e-02
+acuSolve:   CFL timeInc              = 6.936583e-06
+acuSolve:   Step CPU/Elapse time     = 7.812000e+00 1.110600e+01 Sec
+acuSolve: Time-Step=   29 ; timeInc= 1.000000e+10 ; time= 2.800000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 4.315740e-06
+acuSolve:     velocity     res ratio = 4.968894e-03
+acuSolve:     CGP      No iterations =        138
+acuSolve:     CGP        0/1/n norms = 3.798257e-06 1.562654e-06 3.673437e-08
+acuSolve:     CGP   Iter. CPU/Elapse = 1.359000e+00 2.060000e+00 
+acuSolve:     GMRES    No iterations =        154 (15.40)
+acuSolve:     GMRES      0/1/n norms = 7.867162e-06 5.880246e-06 7.865128e-07
+acuSolve:     GMRES Iter. CPU/Elapse = 2.157000e+00 6.075000e+00 
+acuSolve:     pressure     sol ratio = 1.654454e-02
+acuSolve:     velocity     sol ratio = 2.951460e-02
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 8.274142e-03
+acuSolve:     GMRES    No iterations =        178 (4.45)
+acuSolve:     GMRES      0/1/n norms = 1.082687e-10 1.082687e-10 1.069557e-12
+acuSolve:     GMRES Iter. CPU/Elapse = 4.210000e-01 1.527000e+00 
+acuSolve:     eddy-visc.   sol ratio = 2.694723e-02
+acuSolve:   CFL timeInc              = 6.891215e-06
+acuSolve:   Step CPU/Elapse time     = 5.094000e+00 1.201100e+01 Sec
+acuSolve: Time-Step=   30 ; timeInc= 1.000000e+10 ; time= 2.900000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 4.005753e-06
+acuSolve:     velocity     res ratio = 4.557268e-03
+acuSolve:     CGP      No iterations =        138
+acuSolve:     CGP        0/1/n norms = 3.381341e-06 1.419919e-06 3.311213e-08
+acuSolve:     CGP   Iter. CPU/Elapse = 4.220000e-01 1.802000e+00 
+acuSolve:     GMRES    No iterations =        180 (18.00)
+acuSolve:     GMRES      0/1/n norms = 6.968626e-06 5.528941e-06 6.968175e-07
+acuSolve:     GMRES Iter. CPU/Elapse = 1.031000e+00 5.257000e+00 
+acuSolve:     pressure     sol ratio = 1.485064e-02
+acuSolve:     velocity     sol ratio = 1.643710e-02
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 7.909170e-03
+acuSolve:     GMRES    No iterations =        158 (3.95)
+acuSolve:     GMRES      0/1/n norms = 1.015068e-10 1.015068e-10 9.975028e-13
+acuSolve:     GMRES Iter. CPU/Elapse = 2.190000e-01 1.114000e+00 
+acuSolve:     eddy-visc.   sol ratio = 3.143674e-02
+acuSolve:   CFL timeInc              = 7.047419e-06
+acuSolve:   Step CPU/Elapse time     = 2.328000e+00 1.061700e+01 Sec
+acuSolve: Time-Step=   31 ; timeInc= 1.000000e+10 ; time= 3.000000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 3.409085e-06
+acuSolve:     velocity     res ratio = 4.600226e-03
+acuSolve:     CGP      No iterations =        134
+acuSolve:     CGP        0/1/n norms = 3.017112e-06 1.219176e-06 2.890440e-08
+acuSolve:     CGP   Iter. CPU/Elapse = 3.130000e-01 1.817000e+00 
+acuSolve:     GMRES    No iterations =        170 (17.00)
+acuSolve:     GMRES      0/1/n norms = 6.215958e-06 4.507516e-06 6.200774e-07
+acuSolve:     GMRES Iter. CPU/Elapse = 8.900000e-01 5.069000e+00 
+acuSolve:     pressure     sol ratio = 1.133801e-02
+acuSolve:     velocity     sol ratio = 1.421836e-02
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 7.313380e-03
+acuSolve:     GMRES    No iterations =        124 (3.10)
+acuSolve:     GMRES      0/1/n norms = 9.082119e-11 9.082119e-11 8.915338e-13
+acuSolve:     GMRES Iter. CPU/Elapse = 1.560000e-01 9.020000e-01 
+acuSolve:     eddy-visc.   sol ratio = 2.807271e-02
+acuSolve:   CFL timeInc              = 7.317342e-06
+acuSolve:   Step CPU/Elapse time     = 1.547000e+00 1.010300e+01 Sec
+acuSolve: Time-Step=   32 ; timeInc= 1.000000e+10 ; time= 3.100000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 2.845466e-06
+acuSolve:     velocity     res ratio = 4.429476e-03
+acuSolve:     CGP      No iterations =        129
+acuSolve:     CGP        0/1/n norms = 2.692555e-06 1.096954e-06 2.559647e-08
+acuSolve:     CGP   Iter. CPU/Elapse = 3.130000e-01 1.792000e+00 
+acuSolve:     GMRES    No iterations =        172 (17.20)
+acuSolve:     GMRES      0/1/n norms = 5.523202e-06 3.665409e-06 5.506709e-07
+acuSolve:     GMRES Iter. CPU/Elapse = 1.312000e+00 4.917000e+00 
+acuSolve:     pressure     sol ratio = 1.104137e-02
+acuSolve:     velocity     sol ratio = 1.102188e-02
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 6.456251e-03
+acuSolve:     GMRES    No iterations =        158 (3.95)
+acuSolve:     GMRES      0/1/n norms = 7.021599e-11 7.021599e-11 7.009240e-13
+acuSolve:     GMRES Iter. CPU/Elapse = 2.960000e-01 1.134000e+00 
+acuSolve:     eddy-visc.   sol ratio = 2.003826e-02
+acuSolve:   CFL timeInc              = 7.442283e-06
+acuSolve:   Step CPU/Elapse time     = 2.359000e+00 1.009900e+01 Sec
+acuSolve: Time-Step=   33 ; timeInc= 1.000000e+10 ; time= 3.200000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 2.523377e-06
+acuSolve:     velocity     res ratio = 4.108930e-03
+acuSolve:     CGP      No iterations =        133
+acuSolve:     CGP        0/1/n norms = 2.415334e-06 9.469829e-07 2.364548e-08
+acuSolve:     CGP   Iter. CPU/Elapse = 3.120000e-01 1.820000e+00 
+acuSolve:     GMRES    No iterations =        123 (12.30)
+acuSolve:     GMRES      0/1/n norms = 4.917922e-06 3.091438e-06 4.904873e-07
+acuSolve:     GMRES Iter. CPU/Elapse = 6.720000e-01 3.765000e+00 
+acuSolve:     pressure     sol ratio = 8.271011e-03
+acuSolve:     velocity     sol ratio = 8.552703e-03
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 5.202808e-03
+acuSolve:     GMRES    No iterations =        156 (3.90)
+acuSolve:     GMRES      0/1/n norms = 5.331049e-11 5.331049e-11 5.234606e-13
+acuSolve:     GMRES Iter. CPU/Elapse = 1.880000e-01 1.110000e+00 
+acuSolve:     eddy-visc.   sol ratio = 1.061412e-02
+acuSolve:   CFL timeInc              = 7.398773e-06
+acuSolve:   Step CPU/Elapse time     = 2.047000e+00 8.671000e+00 Sec
+acuSolve: Time-Step=   34 ; timeInc= 1.000000e+10 ; time= 3.300000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 2.516521e-06
+acuSolve:     velocity     res ratio = 3.466947e-03
+acuSolve:     CGP      No iterations =        138
+acuSolve:     CGP        0/1/n norms = 2.174159e-06 8.958901e-07 2.055447e-08
+acuSolve:     CGP   Iter. CPU/Elapse = 3.130000e-01 1.853000e+00 
+acuSolve:     GMRES    No iterations =        219 (21.90)
+acuSolve:     GMRES      0/1/n norms = 4.431451e-06 3.633541e-06 4.427916e-07
+acuSolve:     GMRES Iter. CPU/Elapse = 1.344000e+00 6.461000e+00 
+acuSolve:     pressure     sol ratio = 1.146829e-02
+acuSolve:     velocity     sol ratio = 1.192029e-02
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 4.265026e-03
+acuSolve:     GMRES    No iterations =        184 (4.60)
+acuSolve:     GMRES      0/1/n norms = 4.619870e-11 4.619870e-11 4.610629e-13
+acuSolve:     GMRES Iter. CPU/Elapse = 1.560000e-01 1.348000e+00 
+acuSolve:     eddy-visc.   sol ratio = 6.616658e-03
+acuSolve:   CFL timeInc              = 7.241706e-06
+acuSolve:   Step CPU/Elapse time     = 2.156000e+00 1.191700e+01 Sec
+acuSolve: Time-Step=   35 ; timeInc= 1.000000e+10 ; time= 3.400000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 1.776605e-06
+acuSolve:     velocity     res ratio = 3.392048e-03
+acuSolve:     CGP      No iterations =        142
+acuSolve:     CGP        0/1/n norms = 1.940499e-06 9.196746e-07 1.900305e-08
+acuSolve:     CGP   Iter. CPU/Elapse = 3.590000e-01 1.955000e+00 
+acuSolve:     GMRES    No iterations =        110 (11.00)
+acuSolve:     GMRES      0/1/n norms = 3.942840e-06 2.289550e-06 3.089546e-07
+acuSolve:     GMRES Iter. CPU/Elapse = 7.190000e-01 3.174000e+00 
+acuSolve:     pressure     sol ratio = 4.134291e-03
+acuSolve:     velocity     sol ratio = 5.730109e-03
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 3.080333e-03
+acuSolve:     GMRES    No iterations =        166 (4.15)
+acuSolve:     GMRES      0/1/n norms = 3.517382e-11 3.517382e-11 3.474799e-13
+acuSolve:     GMRES Iter. CPU/Elapse = 2.340000e-01 1.139000e+00 
+acuSolve:     eddy-visc.   sol ratio = 6.493713e-03
+acuSolve:   CFL timeInc              = 7.352270e-06
+acuSolve:   Step CPU/Elapse time     = 1.844000e+00 8.460000e+00 Sec
+acuSolve: Time-Step=   36 ; timeInc= 1.000000e+10 ; time= 3.500000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 1.520125e-06
+acuSolve:     velocity     res ratio = 2.726657e-03
+acuSolve:     CGP      No iterations =        115
+acuSolve:     CGP        0/1/n norms = 1.750776e-06 6.601242e-07 1.735683e-08
+acuSolve:     CGP   Iter. CPU/Elapse = 2.500000e-01 1.596000e+00 
+acuSolve:     GMRES    No iterations =         57 (5.70)
+acuSolve:     GMRES      0/1/n norms = 3.575316e-06 1.915426e-06 3.572564e-07
+acuSolve:     GMRES Iter. CPU/Elapse = 4.840000e-01 1.604000e+00 
+acuSolve:     pressure     sol ratio = 3.305899e-03
+acuSolve:     velocity     sol ratio = 4.996033e-03
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 2.646126e-03
+acuSolve:     GMRES    No iterations =        145 (3.63)
+acuSolve:     GMRES      0/1/n norms = 3.310704e-11 3.310704e-11 3.288021e-13
+acuSolve:     GMRES Iter. CPU/Elapse = 1.870000e-01 1.001000e+00 
+acuSolve:     eddy-visc.   sol ratio = 6.529493e-03
+acuSolve:   CFL timeInc              = 7.395715e-06
+acuSolve:   Step CPU/Elapse time     = 1.312000e+00 6.454000e+00 Sec
+acuSolve: Time-Step=   37 ; timeInc= 1.000000e+10 ; time= 3.600000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 1.732376e-06
+acuSolve:     velocity     res ratio = 2.274309e-03
+acuSolve:     CGP      No iterations =        131
+acuSolve:     CGP        0/1/n norms = 1.597890e-06 6.377821e-07 1.573414e-08
+acuSolve:     CGP   Iter. CPU/Elapse = 3.280000e-01 1.814000e+00 
+acuSolve:     GMRES    No iterations =        175 (17.50)
+acuSolve:     GMRES      0/1/n norms = 3.270677e-06 2.375995e-06 3.266237e-07
+acuSolve:     GMRES Iter. CPU/Elapse = 9.530000e-01 5.266000e+00 
+acuSolve:     pressure     sol ratio = 7.306396e-03
+acuSolve:     velocity     sol ratio = 7.464488e-03
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 2.622299e-03
+acuSolve:     GMRES    No iterations =        176 (4.40)
+acuSolve:     GMRES      0/1/n norms = 2.939748e-11 2.939748e-11 2.899106e-13
+acuSolve:     GMRES Iter. CPU/Elapse = 1.880000e-01 1.240000e+00 
+acuSolve:     eddy-visc.   sol ratio = 7.280978e-03
+acuSolve:   CFL timeInc              = 7.287653e-06
+acuSolve:   Step CPU/Elapse time     = 1.907000e+00 1.043200e+01 Sec
+acuSolve: Time-Step=   38 ; timeInc= 1.000000e+10 ; time= 3.700000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 1.348248e-06
+acuSolve:     velocity     res ratio = 2.568775e-03
+acuSolve:     CGP      No iterations =        128
+acuSolve:     CGP        0/1/n norms = 1.394916e-06 5.197415e-07 1.381203e-08
+acuSolve:     CGP   Iter. CPU/Elapse = 2.030000e-01 1.825000e+00 
+acuSolve:     GMRES    No iterations =         88 (8.80)
+acuSolve:     GMRES      0/1/n norms = 2.788235e-06 1.621062e-06 2.316728e-07
+acuSolve:     GMRES Iter. CPU/Elapse = 6.250000e-01 2.515000e+00 
+acuSolve:     pressure     sol ratio = 2.287246e-03
+acuSolve:     velocity     sol ratio = 2.944915e-03
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 2.375415e-03
+acuSolve:     GMRES    No iterations =        171 (4.28)
+acuSolve:     GMRES      0/1/n norms = 2.518360e-11 2.518360e-11 2.493658e-13
+acuSolve:     GMRES Iter. CPU/Elapse = 2.340000e-01 1.175000e+00 
+acuSolve:     eddy-visc.   sol ratio = 5.540173e-03
+acuSolve:   CFL timeInc              = 7.265005e-06
+acuSolve:   Step CPU/Elapse time     = 1.468000e+00 7.743000e+00 Sec
+acuSolve: Time-Step=   39 ; timeInc= 1.000000e+10 ; time= 3.800000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 1.257910e-06
+acuSolve:     velocity     res ratio = 2.033388e-03
+acuSolve:     CGP      No iterations =        125
+acuSolve:     CGP        0/1/n norms = 1.278748e-06 4.700964e-07 1.267983e-08
+acuSolve:     CGP   Iter. CPU/Elapse = 3.280000e-01 1.699000e+00 
+acuSolve:     GMRES    No iterations =         95 (9.50)
+acuSolve:     GMRES      0/1/n norms = 2.612849e-06 1.619386e-06 2.602068e-07
+acuSolve:     GMRES Iter. CPU/Elapse = 6.880000e-01 2.730000e+00 
+acuSolve:     pressure     sol ratio = 3.099594e-03
+acuSolve:     velocity     sol ratio = 7.111893e-03
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 2.192833e-03
+acuSolve:     GMRES    No iterations =        143 (3.58)
+acuSolve:     GMRES      0/1/n norms = 2.502227e-11 2.502227e-11 2.479385e-13
+acuSolve:     GMRES Iter. CPU/Elapse = 2.180000e-01 9.900000e-01 
+acuSolve:     eddy-visc.   sol ratio = 3.601701e-03
+acuSolve:   CFL timeInc              = 7.275104e-06
+acuSolve:   Step CPU/Elapse time     = 1.579000e+00 7.695000e+00 Sec
+acuSolve: Time-Step=   40 ; timeInc= 1.000000e+10 ; time= 3.900000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 1.439161e-06
+acuSolve:     velocity     res ratio = 1.857418e-03
+acuSolve:     CGP      No iterations =        148
+acuSolve:     CGP        0/1/n norms = 1.141968e-06 4.559760e-07 1.128381e-08
+acuSolve:     CGP   Iter. CPU/Elapse = 4.220000e-01 1.965000e+00 
+acuSolve:     GMRES    No iterations =        194 (19.40)
+acuSolve:     GMRES      0/1/n norms = 2.304097e-06 1.924014e-06 2.299721e-07
+acuSolve:     GMRES Iter. CPU/Elapse = 1.187000e+00 5.811000e+00 
+acuSolve:     pressure     sol ratio = 5.140863e-03
+acuSolve:     velocity     sol ratio = 5.258340e-03
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 1.924644e-03
+acuSolve:     GMRES    No iterations =        182 (4.55)
+acuSolve:     GMRES      0/1/n norms = 2.208723e-11 2.208723e-11 2.200958e-13
+acuSolve:     GMRES Iter. CPU/Elapse = 2.970000e-01 1.297000e+00 
+acuSolve:     eddy-visc.   sol ratio = 3.347529e-03
+acuSolve:   CFL timeInc              = 7.254829e-06
+acuSolve:   Step CPU/Elapse time     = 2.531000e+00 1.120000e+01 Sec
+acuSolve: Time-Step=   41 ; timeInc= 1.000000e+10 ; time= 4.000000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 1.047648e-06
+acuSolve:     velocity     res ratio = 1.894421e-03
+acuSolve:     CGP      No iterations =        148
+acuSolve:     CGP        0/1/n norms = 1.033838e-06 5.043194e-07 1.002411e-08
+acuSolve:     CGP   Iter. CPU/Elapse = 2.650000e-01 1.980000e+00 
+acuSolve:     GMRES    No iterations =         97 (9.70)
+acuSolve:     GMRES      0/1/n norms = 2.072880e-06 1.241137e-06 1.862403e-07
+acuSolve:     GMRES Iter. CPU/Elapse = 6.100000e-01 2.789000e+00 
+acuSolve:     pressure     sol ratio = 2.167835e-03
+acuSolve:     velocity     sol ratio = 3.047068e-03
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 1.510012e-03
+acuSolve:     GMRES    No iterations =        174 (4.35)
+acuSolve:     GMRES      0/1/n norms = 1.747682e-11 1.747682e-11 1.737976e-13
+acuSolve:     GMRES Iter. CPU/Elapse = 1.250000e-01 1.297000e+00 
+acuSolve:     eddy-visc.   sol ratio = 2.529971e-03
+acuSolve:   CFL timeInc              = 7.224594e-06
+acuSolve:   Step CPU/Elapse time     = 1.438000e+00 8.307000e+00 Sec
+acuSolve: Time-Step=   42 ; timeInc= 1.000000e+10 ; time= 4.100000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 9.810982e-07
+acuSolve:     velocity     res ratio = 1.443403e-03
+acuSolve:     CGP      No iterations =        119
+acuSolve:     CGP        0/1/n norms = 9.409006e-07 3.519604e-07 8.867444e-09
+acuSolve:     CGP   Iter. CPU/Elapse = 4.370000e-01 2.114000e+00 
+acuSolve:     GMRES    No iterations =         75 (7.50)
+acuSolve:     GMRES      0/1/n norms = 1.895821e-06 1.074830e-06 1.889192e-07
+acuSolve:     GMRES Iter. CPU/Elapse = 7.810000e-01 3.025000e+00 
+acuSolve:     pressure     sol ratio = 1.987216e-03
+acuSolve:     velocity     sol ratio = 3.082302e-03
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 1.423134e-03
+acuSolve:     GMRES    No iterations =        130 (3.25)
+acuSolve:     GMRES      0/1/n norms = 1.896983e-11 1.896983e-11 1.883598e-13
+acuSolve:     GMRES Iter. CPU/Elapse = 4.220000e-01 1.216000e+00 
+acuSolve:     eddy-visc.   sol ratio = 2.030163e-03
+acuSolve:   CFL timeInc              = 7.231961e-06
+acuSolve:   Step CPU/Elapse time     = 2.390000e+00 8.985000e+00 Sec
+acuSolve: Time-Step=   43 ; timeInc= 1.000000e+10 ; time= 4.200000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 1.063237e-06
+acuSolve:     velocity     res ratio = 1.313785e-03
+acuSolve:     CGP      No iterations =        139
+acuSolve:     CGP        0/1/n norms = 8.461101e-07 3.272659e-07 8.444736e-09
+acuSolve:     CGP   Iter. CPU/Elapse = 7.810000e-01 2.426000e+00 
+acuSolve:     GMRES    No iterations =        183 (18.30)
+acuSolve:     GMRES      0/1/n norms = 1.702389e-06 1.343132e-06 1.697421e-07
+acuSolve:     GMRES Iter. CPU/Elapse = 2.250000e+00 7.251000e+00 
+acuSolve:     pressure     sol ratio = 3.557004e-03
+acuSolve:     velocity     sol ratio = 4.031207e-03
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 1.284991e-03
+acuSolve:     GMRES    No iterations =        166 (4.15)
+acuSolve:     GMRES      0/1/n norms = 1.624170e-11 1.624170e-11 1.615515e-13
+acuSolve:     GMRES Iter. CPU/Elapse = 4.530000e-01 1.547000e+00 
+acuSolve:     eddy-visc.   sol ratio = 2.053277e-03
+acuSolve:   CFL timeInc              = 7.285885e-06
+acuSolve:   Step CPU/Elapse time     = 4.359000e+00 1.432700e+01 Sec
+acuSolve: Time-Step=   44 ; timeInc= 1.000000e+10 ; time= 4.300000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 7.288836e-07
+acuSolve:     velocity     res ratio = 1.412095e-03
+acuSolve:     CGP      No iterations =        146
+acuSolve:     CGP        0/1/n norms = 7.569208e-07 3.730425e-07 7.260625e-09
+acuSolve:     CGP   Iter. CPU/Elapse = 7.660000e-01 2.513000e+00 
+acuSolve:     GMRES    No iterations =         92 (9.20)
+acuSolve:     GMRES      0/1/n norms = 1.502153e-06 8.511337e-07 1.323330e-07
+acuSolve:     GMRES Iter. CPU/Elapse = 1.328000e+00 3.689000e+00 
+acuSolve:     pressure     sol ratio = 1.352312e-03
+acuSolve:     velocity     sol ratio = 2.443855e-03
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 1.043489e-03
+acuSolve:     GMRES    No iterations =        168 (4.20)
+acuSolve:     GMRES      0/1/n norms = 1.238256e-11 1.238256e-11 1.225139e-13
+acuSolve:     GMRES Iter. CPU/Elapse = 5.470000e-01 1.591000e+00 
+acuSolve:     eddy-visc.   sol ratio = 1.538743e-03
+acuSolve:   CFL timeInc              = 7.227031e-06
+acuSolve:   Step CPU/Elapse time     = 3.798000e+00 1.083600e+01 Sec
+acuSolve: Time-Step=   45 ; timeInc= 1.000000e+10 ; time= 4.400000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 6.682670e-07
+acuSolve:     velocity     res ratio = 1.084750e-03
+acuSolve:     CGP      No iterations =        114
+acuSolve:     CGP        0/1/n norms = 6.955940e-07 2.581950e-07 6.708913e-09
+acuSolve:     CGP   Iter. CPU/Elapse = 7.960000e-01 2.094000e+00 
+acuSolve:     GMRES    No iterations =         69 (6.90)
+acuSolve:     GMRES      0/1/n norms = 1.396232e-06 7.225327e-07 1.389926e-07
+acuSolve:     GMRES Iter. CPU/Elapse = 9.380000e-01 2.725000e+00 
+acuSolve:     pressure     sol ratio = 1.335361e-03
+acuSolve:     velocity     sol ratio = 2.124400e-03
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 9.672434e-04
+acuSolve:     GMRES    No iterations =        147 (3.67)
+acuSolve:     GMRES      0/1/n norms = 1.281424e-11 1.281424e-11 1.254909e-13
+acuSolve:     GMRES Iter. CPU/Elapse = 5.790000e-01 1.337000e+00 
+acuSolve:     eddy-visc.   sol ratio = 1.678795e-03
+acuSolve:   CFL timeInc              = 7.197735e-06
+acuSolve:   Step CPU/Elapse time     = 3.281000e+00 9.210000e+00 Sec
+acuSolve: Time-Step=   46 ; timeInc= 1.000000e+10 ; time= 4.500000e+11
+acuSolve:   Flow stagger "flow": FORM-LHS
+acuSolve:     pressure     res ratio = 7.707013e-07
+acuSolve:     velocity     res ratio = 9.557331e-04
+acuSolve:     CGP      No iterations =        139
+acuSolve:     CGP        0/1/n norms = 6.263268e-07 2.371666e-07 6.036694e-09
+acuSolve:     CGP   Iter. CPU/Elapse = 1.047000e+00 2.425000e+00 
+acuSolve:     GMRES    No iterations =        155 (15.50)
+acuSolve:     GMRES      0/1/n norms = 1.246223e-06 8.960083e-07 1.245761e-07
+acuSolve:     GMRES Iter. CPU/Elapse = 1.922000e+00 5.849000e+00 
+acuSolve:     pressure     sol ratio = 2.157065e-03
+acuSolve:     velocity     sol ratio = 2.512099e-03
+acuSolve:   Turbulence stagger "turbulence": FORM-LHS
+acuSolve:     eddy-visc.   res ratio = 9.586425e-04
+acuSolve:     GMRES    No iterations =        168 (4.20)
+acuSolve:     GMRES      0/1/n norms = 1.297492e-11 1.297492e-11 1.275883e-13
+acuSolve:     GMRES Iter. CPU/Elapse = 5.780000e-01 1.560000e+00 
+acuSolve:     eddy-visc.   sol ratio = 2.115650e-03
+acuSolve:   CFL timeInc              = 7.255090e-06
+acuSolve:   Step CPU/Elapse time     = 5.452000e+00 1.452100e+01 Sec
+acuSolve: ----------------------- End Time Step -----------------------
+acuSolve: ----------------------- Offset Values -----------------------
+acuSolve:            Pressure Offset = 1.013250e+05 
+acuSolve:         Temperature Offset = 0.000000e+00 
+acuSolve: -------------------------------------------------------------
+acuSolve: Input       CPU/Elapse time= 2.756200e+01 4.357400e+01 Sec
+acuSolve: Output      CPU/Elapse time= 1.417300e+01 2.698800e+01 Sec
+acuSolve: Exchange    CPU/Elapse time= 6.060000e-01 2.580000e-01 Sec
+acuSolve: Intf.search CPU/Elapse time= 0.000000e+00 0.000000e+00 Sec
+acuSolve: Flow stagger "flow":
+acuSolve:   No of res/lhs formations =           46           46
+acuSolve:   Elem.Form CPU/Elapse time= 3.294200e+01 5.903200e+01 Sec
+acuSolve:   Solution  CPU/Elapse time= 2.144060e+02 3.828210e+02 Sec
+acuSolve: Turbulence stagger "turbulence":
+acuSolve:   No of res/lhs formations =           46           46
+acuSolve:   Elem.Form CPU/Elapse time= 1.721900e+01 3.119200e+01 Sec
+acuSolve:   Solution  CPU/Elapse time= 3.798400e+01 6.813300e+01 Sec
+acuSolve: LnSlv. (host)   Elapse time= 4.491540e+02 Sec
+acuSolve: Total CPU/Elapse time      = 3.504360e+02 6.227410e+02 Sec
+acuSolve: Total Memory Usage         = 2.200000e+02 Mbytes
+acuRun: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+acuTrans:  Variable                         Min           Max           Ave
+acuTrans: x_coordinates                  -3.048000e+01  3.048000e+01  2.533014e-01
+acuTrans: y_coordinates                  -3.047922e+01  3.047922e+01 -2.655477e-02
+acuTrans: z_coordinates                   0.000000e+00  1.219200e-01  6.096000e-02
+acuTrans: x_velocity                     -1.166233e+00  4.704323e+01  3.833311e+01
+acuTrans: y_velocity                     -2.454831e+01  2.448850e+01  1.587750e-03
+acuTrans: z_velocity                      0.000000e+00  0.000000e+00  0.000000e+00
+acuTrans: pressure                       -4.014076e+02  1.031825e+03 -2.950024e+01
+acuTrans: eddy_viscosity                  0.000000e+00  2.068716e-03  1.524206e-04
+acuTrans: surface_y_plus                  0.000000e+00  6.368552e+00  3.166792e-02
+acuTrans: surface_film_coefficient        0.000000e+00  2.292961e+02  1.069482e+00
+acuTrans: x_wall_shear_stress             0.000000e+00  6.705685e+00  2.562320e-02
+acuTrans: y_wall_shear_stress            -5.364278e+00  5.333922e+00 -1.080560e-06
+acuTrans: z_wall_shear_stress            -5.978552e-07  4.327000e-07 -4.013696e-12
+acuRun: -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+acuRun: Thu Mar  7 13:10:10 2024
