@@ -1,4 +1,4 @@
-Run on 03/07/2024 2:00PM
+Run on 03/07/2024 2:31PM
 
 Air
 Freestream velocity = 40 m/s 
