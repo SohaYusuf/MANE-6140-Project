@@ -31,12 +31,12 @@ mesh details:
 - two edge curves of
 the airfoil on the +Z normal
 face
-- Average element size c/128
+- Average element size c/128 = 0.0047625
 
 2. “Edge Layer”
 - two edge curves of the
 airfoil on the +Z normal face
-- First layer thickness to c/15,000
+- First layer thickness to c/15,000 = 4.064e-5
 - Total number of layers to 20 
 - Growth method to Constant 
 - Growth rate to 1.2
@@ -48,7 +48,7 @@ Rectangular zone:
 length x = 2.2c = 2.2*0.6096 = 1.34112
 length y = 0.3c = 0.3*0.6096 = 0.18288
 length z = 0.3c = 0.3*0.6096 = 0.18288
-Average element size c/128
+Average element size c/128 = 4.7625e-3
 
 4. Surface
   - Surface mesh on +Z normal
