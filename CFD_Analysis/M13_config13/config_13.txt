@@ -1,0 +1,68 @@
+Run on 03/08/2024
+  """
+    This differ from config_4 by increasing the first layer thickness from 10,000 to 200,000
+    See line 39
+  """
+
+Custom fluid
+Freestream velocity: 20m/s
+chord length: 0.6096 m
+viscosity: 2.032e-6 m^2/s
+density = 1 kg/m^3
+Re: 6e6
+
+
+boundary conditions:
+1. No Slip
+- upper and lower wall of airfoil 
+- Set “Near-wall treatment” to ‘Wall
+Resolved’ 
+- “Roughness height” to 0 
+- Set “Wall velocity type” to ‘Zero’
+
+2. “Far Field”
+- upper
+and lower
+surfaces of the
+circular rim
+- “X velocity” as 20 m/s
+
+3. “Slip”
+- +/- Z normal surfaces
+
+mesh details:
+1. “Edge”
+- two edge curves of
+the airfoil on the +Z normal
+face
+- Average element size c/128 = 0.0047625
+
+2. “Edge Layer”
+- two edge curves of the
+airfoil on the +Z normal face
+- First layer thickness to c/300,000 = 2.032e-6
+- Total number of layers to 40 
+- Growth method to Constant 
+- Growth rate to 1.2
+- Termination policy to ‘Truncate’
+- Enable surface mesh modification
+
+3. Zones:
+Rectangular zone:
+length x = 2.2c = 2.2*0.6096 = 1.34112
+length y = 0.3c = 0.3*0.6096 = 0.18288
+length z = 0.3c = 0.3*0.6096 = 0.18288
+Average element size c/128 = 4.7625e-3
+
+4. Surface
+  - Surface mesh on +Z normal
+  - Mesh size: "Maximum Size"
+  - Maximum element size: c = 0.6096
+  - Mesh
+
+Extrusion:
+Element size along extrusion = c/5 = 0.6096/5 = 0.12192
+
+3. "Volume”
+- Mesh size to ‘Maximum Size’
+- Maximum element size to c = 0.6096
