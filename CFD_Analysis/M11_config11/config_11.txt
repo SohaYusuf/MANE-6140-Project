@@ -1,4 +1,4 @@
-Run on 03/06/2024
+Run on 03/08/2024
   """
     This differ from config_4 by increasing the first layer thickness from 10,000 to 200,000
     See line 39
